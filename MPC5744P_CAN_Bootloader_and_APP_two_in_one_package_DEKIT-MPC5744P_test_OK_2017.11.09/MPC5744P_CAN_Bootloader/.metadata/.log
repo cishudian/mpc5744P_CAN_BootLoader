@@ -1,0 +1,111 @@
+!SESSION 2019-01-22 15:04:36.441 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.nxp.s32ds.e200.ide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.nxp.s32ds.e200.ide.product
+
+!ENTRY org.eclipse.ui 2 0 2019-01-22 15:05:32.147
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-01-22 15:05:32.147
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui 2 0 2019-01-22 15:05:33.090
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-01-22 15:05:33.090
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui.navigator 2 0 2019-01-22 15:05:41.889
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jdt.java.ui.javaContent
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-22 15:05:42.302
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\94041'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-01-22 15:06:11.740
+!MESSAGE Exception in update check thread
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SESSION 2019-03-12 11:02:09.703 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.nxp.s32ds.e200.ide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.nxp.s32ds.e200.ide.product
+
+!ENTRY org.eclipse.ui 2 0 2019-03-12 11:02:23.115
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-12 11:02:23.115
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui 2 0 2019-03-12 11:02:23.376
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-12 11:02:23.376
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui.navigator 2 0 2019-03-12 11:02:29.791
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jdt.java.ui.javaContent
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-12 11:02:31.043
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\94041'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-04-08 19:15:26.918 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.nxp.s32ds.e200.ide.product -product com.nxp.s32ds.e200.ide.product -product com.nxp.s32ds.e200.ide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.nxp.s32ds.e200.ide.product -product com.nxp.s32ds.e200.ide.product -data D:\mpc5744p-vc\MPC5744P_CAN_Bootloader_and_APP_two_in_one_package_DEKIT-MPC5744P_test_OK_2017.11.09\MPC5744P_CAN_Bootloader -product com.nxp.s32ds.e200.ide.product
+
+!ENTRY org.eclipse.ui 2 0 2019-04-08 19:15:48.083
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-04-08 19:15:48.083
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui 2 0 2019-04-08 19:15:51.441
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-04-08 19:15:51.441
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui.navigator 2 0 2019-04-08 19:16:19.138
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jdt.java.ui.javaContent
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-08 19:16:19.613
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\94041'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

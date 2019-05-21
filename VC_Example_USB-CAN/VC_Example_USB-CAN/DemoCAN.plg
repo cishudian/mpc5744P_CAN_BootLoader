@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DemoCAN - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\94041\AppData\Local\Temp\RSPED93.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/DemoCAN.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\mpc5744p-vc\VC_Example_USB-CAN\VC_Example_USB-CAN\ColoredListCtrl.cpp"
+"D:\mpc5744p-vc\VC_Example_USB-CAN\VC_Example_USB-CAN\DemoCAN.cpp"
+"D:\mpc5744p-vc\VC_Example_USB-CAN\VC_Example_USB-CAN\DemoCANDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\94041\AppData\Local\Temp\RSPED93.tmp" 
+Creating temporary file "C:\Users\94041\AppData\Local\Temp\RSPED94.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/DemoCAN.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\mpc5744p-vc\VC_Example_USB-CAN\VC_Example_USB-CAN\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\94041\AppData\Local\Temp\RSPED94.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ColoredListCtrl.cpp
+DemoCAN.cpp
+DemoCANDlg.cpp
+Generating Code...
+Creating temporary file "C:\Users\94041\AppData\Local\Temp\RSPF016.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/DemoCAN.pdb" /machine:I386 /out:"Release/DemoCAN.exe" 
+".\Release\ColoredListCtrl.obj"
+".\Release\DemoCAN.obj"
+".\Release\DemoCANDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\DemoCAN.res"
+".\VCI_CAN.lib"
+]
+Creating command line "link.exe @C:\Users\94041\AppData\Local\Temp\RSPF016.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/DemoCAN.bsc"  ".\Release\StdAfx.sbr" ".\Release\ColoredListCtrl.sbr" ".\Release\DemoCAN.sbr" ".\Release\DemoCANDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DemoCAN.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

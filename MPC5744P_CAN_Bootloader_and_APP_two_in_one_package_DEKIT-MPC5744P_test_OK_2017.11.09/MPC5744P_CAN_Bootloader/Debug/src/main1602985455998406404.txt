@@ -1,0 +1,202 @@
+powerpc-eabivle-objdump -d -S -x "src\\main.o" 
+
+src\main.o:     file format elf32-powerpc
+src\main.o
+architecture: powerpc:vle, flags 0x00000011:
+HAS_RELOC, HAS_SYMS
+start address 0x00000000
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .group        00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  1 .group        00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  2 .group        00000008  00000000  00000000  00000044  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  3 .group        00000008  00000000  00000000  0000004c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  4 .group        00000008  00000000  00000000  00000054  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  5 .group        00000008  00000000  00000000  0000005c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  6 .group        00000008  00000000  00000000  00000064  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  7 .group        00000008  00000000  00000000  0000006c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  8 .group        00000008  00000000  00000000  00000074  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  9 .group        00000008  00000000  00000000  0000007c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 10 .group        00000008  00000000  00000000  00000084  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 11 .group        00000008  00000000  00000000  0000008c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 12 .group        00000008  00000000  00000000  00000094  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 13 .text         00000000  00000000  00000000  0000009c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE, VLE
+ 14 .data         00000000  00000000  00000000  0000009c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 15 .bss          00000000  00000000  00000000  0000009c  2**0
+                  ALLOC
+ 16 .text.main    0000003c  00000000  00000000  0000009c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE, VLE
+ 17 .debug_info   000000c6  00000000  00000000  000000d8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_abbrev 0000008d  00000000  00000000  0000019e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 19 .debug_aranges 00000020  00000000  00000000  0000022b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_ranges 00000010  00000000  00000000  0000024b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_macro  000000b6  00000000  00000000  0000025b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_macro  00000616  00000000  00000000  00000311  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_macro  00000052  00000000  00000000  00000927  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_macro  000000a0  00000000  00000000  00000979  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_macro  00000016  00000000  00000000  00000a19  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_macro  00000064  00000000  00000000  00000a2f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_macro  000001a3  00000000  00000000  00000a93  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_macro  00000133  00000000  00000000  00000c36  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_macro  0000009d  00000000  00000000  00000d69  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_macro  00000010  00000000  00000000  00000e06  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_macro  0000015b  00000000  00000000  00000e16  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_macro  00000028  00000000  00000000  00000f71  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_macro  00000058  00000000  00000000  00000f99  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_macro  0000b50a  00000000  00000000  00000ff1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_line   00000204  00000000  00000000  0000c4fb  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_str    0003727d  00000000  00000000  0000c6ff  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 37 .comment      0000008f  00000000  00000000  0004397c  2**0
+                  CONTENTS, READONLY
+ 38 .PPC.EMB.apuinfo 00000018  00000000  00000000  00043a0b  2**0
+                  CONTENTS, READONLY
+ 39 .debug_frame  0000002c  00000000  00000000  00043a24  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.main	00000000 .text.main
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l       .group	00000000 wm4.0.229f2e21cff508c624f631f41e33b7ab
+00000000 l       .group	00000000 wm4.lib_c99.prefix.8.3580c292f50811c682d980dc4180498e
+00000000 l       .group	00000000 wm4.common.prefix.16.d7bf937cdf46fd76dde96b376e3b328a
+00000000 l       .group	00000000 wm4.ewl_c_version.h.9.0bcb57d6a3f89baae1f9b121de2772f5
+00000000 l       .group	00000000 wm4.os_enum.h.9.f9446d6af68b3fa72a37d4d924d3b347
+00000000 l       .group	00000000 wm4.ansi_prefix.PA_EABI.bare.h.13.bc4260de00d13d22e2cf5282b051804c
+00000000 l       .group	00000000 wm4.ansi_parms.h.64.1ef44042fa7eb65a5fea92aff5b4a219
+00000000 l       .group	00000000 wm4.limits_api.h.9.bc6daa20b3abae2bba6c512044e73b43
+00000000 l       .group	00000000 wm4.ewl_lib_ext1.h.14.f9b057cc049671136093886db2a3473f
+00000000 l       .group	00000000 wm4.cstdint.134.0ece0ba0ee759ce9e45a8fa510ec0d93
+00000000 l       .group	00000000 wm4.wchar_t.h.9.94198016f5b5f455e54ea1f3f054b416
+00000000 l       .group	00000000 wm4.cstdint.246.0573fcc3ea2319479988f90b448d87e4
+00000000 l       .group	00000000 wm4.MPC5744P.h.12325.7e8b3a2af2e1d37e126914b9b1a6c579
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .PPC.EMB.apuinfo	00000000 .PPC.EMB.apuinfo
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000004       O *COM*	00000004 My_Func
+00000000         *UND*	00000000 __eabi
+00000000 g     F .text.main	0000003c main
+00000000         *UND*	00000000 xcptn_xmpl
+
+
+
+Disassembly of section .text.main:
+
+00000000 <main>:
+typedef void (* Jump_Func)(void);
+
+Jump_Func *My_Func;
+
+int main(void)
+{
+   0:	18 21 06 e0 	e_stwu  r1,-32(r1)
+   4:	00 80       	se_mflr r0
+   6:	d9 01       	se_stw  r0,36(r1)
+   8:	d7 f1       	se_stw  r31,28(r1)
+   a:	01 1f       	se_mr   r31,r1
+   c:	78 00 00 01 	e_bl    c <main+0xc>
+			c: R_PPC_VLE_REL24	__eabi
+	volatile int counter = 0;
+  10:	48 07       	se_li   r7,0
+  12:	d2 7f       	se_stw  r7,8(r31)
+	
+	xcptn_xmpl ();              /* Configure and Enable Interrupts */
+  14:	78 00 00 01 	e_bl    14 <main+0x14>
+			14: R_PPC_VLE_REL24	xcptn_xmpl
+
+	My_Func = 0x10001000;
+  18:	70 e0 e0 00 	e_lis   r7,0
+			18: R_PPC_VLE_HA16A	My_Func
+  1c:	62 36       	se_bgeni r6,3
+  1e:	65 36       	se_bseti r6,19
+  20:	54 c7 00 00 	e_stw   r6,0(r7)
+			22: R_PPC_ADDR16_LO	My_Func
+
+	(*My_Func)();
+  24:	70 e0 e0 00 	e_lis   r7,0
+			24: R_PPC_VLE_HA16A	My_Func
+  28:	50 e7 00 00 	e_lwz   r7,0(r7)
+			2a: R_PPC_ADDR16_LO	My_Func
+  2c:	c0 77       	se_lwz  r7,0(r7)
+  2e:	00 b7       	se_mtctr r7
+  30:	00 07       	se_bctrl
+
+
+	/* Loop forever */
+	for(;;) {	   
+	   	counter++;
+  32:	c2 7f       	se_lwz  r7,8(r31)
+  34:	20 07       	se_addi r7,1
+  36:	d2 7f       	se_stw  r7,8(r31)
+	}
+  38:	79 ff ff fa 	e_b     32 <main+0x32>

@@ -1,0 +1,615 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+                              ./src/main.o (__eabi)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .data          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .bss           0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .fixup         0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .sbss          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .sbss2         0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .gcc_except_table
+                0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .data          0x00000000        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/intc_sw_handlers.o
+ .bss           0x00000000        0x0 ./src/intc_sw_handlers.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .text          0x00000000        0x0 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .data          0x00000000        0x0 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .bss           0x00000000        0x0 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0x616 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x52 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0xa0 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x16 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x64 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0x1a3 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0x133 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x9d ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x10 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0x15b ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x28 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x58 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x10 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000     0xb50a ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0xb7e ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .text          0x00000000        0x0 ./src/flashrchw.o
+ .data          0x00000000        0x0 ./src/flashrchw.o
+ .bss           0x00000000        0x0 ./src/flashrchw.o
+ .debug_macro   0x00000000      0x616 ./src/flashrchw.o
+ .debug_macro   0x00000000       0x52 ./src/flashrchw.o
+ .debug_macro   0x00000000       0xa0 ./src/flashrchw.o
+ .debug_macro   0x00000000       0x16 ./src/flashrchw.o
+ .debug_macro   0x00000000       0x64 ./src/flashrchw.o
+ .debug_macro   0x00000000      0x1a3 ./src/flashrchw.o
+ .debug_macro   0x00000000      0x133 ./src/flashrchw.o
+ .debug_macro   0x00000000       0x9d ./src/flashrchw.o
+ .debug_macro   0x00000000       0x10 ./src/flashrchw.o
+ .debug_macro   0x00000000      0x15b ./src/flashrchw.o
+ .debug_macro   0x00000000       0x28 ./src/flashrchw.o
+ .debug_macro   0x00000000       0x58 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .text          0x00000000        0x0 ./src/Vector.o
+ .data          0x00000000        0x0 ./src/Vector.o
+ .bss           0x00000000        0x0 ./src/Vector.o
+ .debug_macro   0x00000000      0x616 ./src/Vector.o
+ .debug_macro   0x00000000       0x52 ./src/Vector.o
+ .debug_macro   0x00000000       0xa0 ./src/Vector.o
+ .debug_macro   0x00000000       0x16 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .text          0x00000000        0x0 ./src/MPC57xx__Interrupt_Init.o
+ .data          0x00000000        0x0 ./src/MPC57xx__Interrupt_Init.o
+ .bss           0x00000000        0x0 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000      0x616 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x52 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0xa0 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x16 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x64 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000      0x1a3 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000      0x133 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x9d ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x10 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000      0x15b ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x28 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x58 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000     0xb50a ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x2e ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .text          0x00000000        0x0 ./src/MPC574xP_SystemInit.o
+ .data          0x00000000        0x0 ./src/MPC574xP_SystemInit.o
+ .bss           0x00000000        0x0 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0x616 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x52 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0xa0 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x16 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x64 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0x1a3 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0x133 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x9d ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x10 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0x15b ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x28 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x58 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000     0xb50a ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x10 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0xb7e ./src/MPC574xP_SystemInit.o
+ .bss           0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+ .data          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .bss           0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .jcr           0x00000000        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .text          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .data          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .bss           0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .fixup         0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .sdata         0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .sdata2        0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .gcc_except_table
+                0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash_rchw       0x00fa0000         0x00000004
+cpu0_reset_vec   0x00fa0004         0x00000004
+m_text           0x01000000         0x00200000
+m_data           0x40000000         0x00060000
+local_dmem       0x50800000         0x00010000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+LOAD ./Project_Settings/Startup_Code/startup.o
+LOAD ./src/main.o
+LOAD ./src/intc_sw_handlers.o
+LOAD ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+LOAD ./src/flashrchw.o
+LOAD ./src/Vector.o
+LOAD ./src/MPC57xx__Interrupt_Init.o
+LOAD ./src/MPC574xP_SystemInit.o
+START GROUP
+LOAD D:/NXP/S32DS_Power_v1.2/S32DS/e200_ewl2/lib/e200z4/fp\libc99.a
+LOAD D:/NXP/S32DS_Power_v1.2/S32DS/e200_ewl2/lib/e200z4/fp\libm.a
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a
+LOAD D:/NXP/S32DS_Power_v1.2/S32DS/e200_ewl2/lib/e200z4/fp\librt.a
+END GROUP
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+                0x00000000                __HEAP_SIZE = 0x0
+                0x00001000                __STACK_SIZE = 0x1000
+                0x00060000                SRAM_SIZE = 0x60000
+                0x40000000                SRAM_BASE_ADDR = 0x40000000
+                0x00010000                LOCALDMEM_SIZE = 0x10000
+                0x50800000                LOCALDMEM_BASE_ADDR = 0x50800000
+
+.rchw           0x00fa0000        0x4
+ *(.rchw)
+ .rchw          0x00fa0000        0x4 ./src/flashrchw.o
+                0x00fa0000                RCHW1
+
+.cpu0_reset_vector
+                0x00fa0004        0x4
+ *(.cpu0_reset_vector)
+ .cpu0_reset_vector
+                0x00fa0004        0x4 ./src/flashrchw.o
+                0x00fa0004                RCHW2
+
+.startup        0x01000000      0x1fe
+                0x01000000                __start = .
+ *(.startup)
+ .startup       0x01000000      0x1fe ./Project_Settings/Startup_Code/startup.o
+                0x01000000                _start
+
+.core_exceptions_table
+                0x01001000       0xf4
+                0x01001000                __IVPR_VALUE = .
+ *(.core_exceptions_table)
+ .core_exceptions_table
+                0x01001000       0xf4 ./src/Vector.o
+                0x01001000                VTABLE
+                0x01001000                IVOR0_Vector
+                0x01001010                IVOR1_Vector
+                0x01001020                IVOR2_Vector
+                0x01001030                IVOR3_Vector
+                0x01001040                IVOR4_Vector
+                0x01001050                IVOR5_Vector
+                0x01001060                IVOR6_Vector
+                0x01001070                IVOR7_Vector
+                0x01001080                IVOR8_Vector
+                0x01001090                IVOR9_Vector
+                0x010010a0                IVOR10_Vector
+                0x010010b0                IVOR11_Vector
+                0x010010c0                IVOR12_Vector
+                0x010010d0                IVOR13_Vector
+                0x010010e0                IVOR14_Vector
+                0x010010f0                IVOR15_Vector
+
+.intc_vector_table
+                0x01002000      0xb78
+ *(.intc_vector_table)
+ .intc_vector_table
+                0x01002000      0xb78 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+                0x01002000                IntcIsrVectorTable
+
+.text           0x01002b80      0x720
+ *(.text.startup)
+ *(.text)
+ .text          0x01002b80      0x16c d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *fill*         0x01002cec        0x4 
+ .text          0x01002cf0       0x48 ./src/intc_sw_handlers.o
+                0x01002cf0                IVOR4_Handler
+ .text          0x01002d38       0x4a d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+                0x01002d38                __eabi
+ *fill*         0x01002d82        0x2 
+ .text          0x01002d84       0x48 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ *(.text.*)
+ .text.main     0x01002dcc       0x32 ./src/main.o
+                0x01002dcc                main
+ *fill*         0x01002dfe        0x2 
+ .text.dummy    0x01002e00        0xc ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+                0x01002e00                dummy
+ .text.SetIVPR  0x01002e0c       0x1a ./src/MPC57xx__Interrupt_Init.o
+                0x01002e0c                SetIVPR
+ *fill*         0x01002e26        0x2 
+ .text.InitINTC
+                0x01002e28       0x32 ./src/MPC57xx__Interrupt_Init.o
+                0x01002e28                InitINTC
+ *fill*         0x01002e5a        0x2 
+ .text.enableIrq
+                0x01002e5c       0x20 ./src/MPC57xx__Interrupt_Init.o
+                0x01002e5c                enableIrq
+ .text.xcptn_xmpl
+                0x01002e7c       0x34 ./src/MPC57xx__Interrupt_Init.o
+                0x01002e7c                xcptn_xmpl
+ .text.Sys_Init
+                0x01002eb0      0x14e ./src/MPC574xP_SystemInit.o
+                0x01002eb0                Sys_Init
+ *fill*         0x01002ffe        0x2 
+ .text.GPIO_Aux_Function_Config
+                0x01003000       0xbc ./src/MPC574xP_SystemInit.o
+                0x01003000                GPIO_Aux_Function_Config
+ .text.Periphral_INTC_Init
+                0x010030bc       0x6c ./src/MPC574xP_SystemInit.o
+                0x010030bc                Periphral_INTC_Init
+ .text.PIT_Channel0_100ms_Init
+                0x01003128       0x68 ./src/MPC574xP_SystemInit.o
+                0x01003128                PIT_Channel0_100ms_Init
+ .text.PIT_Channel0_100ms_ISR
+                0x01003190       0xda ./src/MPC574xP_SystemInit.o
+                0x01003190                PIT_Channel0_100ms_ISR
+ *(.init)
+ *fill*         0x0100326a        0x2 
+ .init          0x0100326c        0xa d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+                0x0100326c                __init
+ .init          0x01003276        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .init          0x0100327a        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .init          0x0100327e        0xa d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ *(.fini)
+ .fini          0x01003288        0xa d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+                0x01003288                __fini
+ .fini          0x01003292        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .fini          0x01003296        0xa d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+                0x010032a0                . = ALIGN (0x10)
+
+.glink          0x010032a0        0x0
+ .glink         0x010032a0        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+
+.ctors          0x010032a0        0x8
+                0x010032a0                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ .ctors         0x010032a0        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ .ctors         0x010032a4        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .ctors         0x010032a4        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x010032a4        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+                0x010032a8                __CTOR_END__ = .
+
+.dtors          0x010032a8        0x8
+                0x010032a8                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ .dtors         0x010032a8        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ .dtors         0x010032ac        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .dtors         0x010032ac        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x010032ac        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+                0x010032b0                __DTOR_END__ = .
+
+.preinit_array  0x010032b0        0x0
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x010032b0        0x0
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                [!provide]                PROVIDE (__init_array_end, .)
+
+.fini_array     0x010032b0        0x0
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                PROVIDE (__fini_array_end, .)
+
+.rodata
+ *(.rodata)
+ *(.rodata.*)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x010032b0        0x8
+ *(.eh_frame)
+ .eh_frame      0x010032b0        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+                0x010032b0                __EH_FRAME_BEGIN__
+ .eh_frame      0x010032b0        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .eh_frame      0x010032b0        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .eh_frame      0x010032b0        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .eh_frame      0x010032b4        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+                0x010032b4                __EH_FRAME_END__
+
+.data           0x40000000        0x4 load address 0x010032b8
+ *(.data)
+ .data          0x40000000        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+ *(.data.*)
+
+.jcr            0x40000004        0x0 load address 0x010032bc
+ .jcr           0x40000004        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+
+.tm_clone_table
+                0x40000004        0x0 load address 0x010032bc
+ .tm_clone_table
+                0x40000004        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .tm_clone_table
+                0x40000004        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+
+.got2           0x40000004       0x1c load address 0x010032bc
+ .got2          0x40000004       0x1c d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+
+.sdata2         0x40000020        0x0 load address 0x010032d8
+ *(.sdata2)
+ .sdata2        0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .sdata2        0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *(.sdata2.*)
+
+.sbss2          0x40000020        0x0 load address 0x010032d8
+ *(.sbss2)
+ .sbss2         0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ *(.sbss2.*)
+
+.rela.dyn       0x40000020        0x0 load address 0x010032d8
+ .rela.iplt     0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text     0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.intc_vector_table
+                0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.got2     0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+
+.sdata          0x40000020        0x0 load address 0x010032d8
+ *(.sdata)
+ .sdata         0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .sdata         0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *(.sdata.*)
+
+.bss            0x40000020       0x24 load address 0x010032d8
+                0x40000020                __BSS_START = .
+ *(.sbss)
+ .sbss          0x40000020        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+                0x40000020                __SBSS_END__
+ *(.sbss.*)
+ *(.bss)
+ .bss           0x40000020       0x20 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *(.bss.*)
+ .bss.Counter.13994
+                0x40000040        0x4 ./src/MPC574xP_SystemInit.o
+ *(COMMON)
+                0x40000044                __BSS_END = .
+
+.iplt           0x40000050        0x0 load address 0x010032d8
+ .iplt          0x40000050        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+
+.stack          0x50800000     0x1004
+                0x50800000                __HEAP = .
+                [!provide]                PROVIDE (_end, .)
+                [!provide]                PROVIDE (end, .)
+                0x50800000                . = (. + __HEAP_SIZE)
+                0x50800000                __HEAP_END = .
+                0x50800000                _stack_end = .
+                0x50801000                . = (. + __STACK_SIZE)
+ *fill*         0x50800000     0x1000 
+                0x50801000                _stack_addr = .
+                0x50801000                __SP_INIT = .
+                0x50801004                . = (. + 0x4)
+ *fill*         0x50801000        0x4 
+                0x40000000                __DATA_SRAM_ADDR = ADDR (.data)
+                0x40000020                __SDATA_SRAM_ADDR = ADDR (.sdata)
+                0x00000004                __DATA_SIZE = SIZEOF (.data)
+                0x00000000                __SDATA_SIZE = SIZEOF (.sdata)
+                0x010032b8                __DATA_ROM_ADDR = LOADADDR (.data)
+                0x010032d8                __SDATA_ROM_ADDR = LOADADDR (.sdata)
+                0x00060000                __SRAM_SIZE = SRAM_SIZE
+                0x40000000                __SRAM_BASE_ADDR = SRAM_BASE_ADDR
+                0x00010000                __LOCAL_DMEM_SIZE = LOCALDMEM_SIZE
+                0x50800000                __LOCAL_DMEM_BASE_ADDR = LOCALDMEM_BASE_ADDR
+                0x00000024                __BSS_SIZE = (__BSS_END - __BSS_START)
+OUTPUT(MPC5744P_CAN_Bootloader_APP_LED_Toggle.elf elf32-powerpc)
+
+.PPC.EMB.apuinfo
+                0x00000000       0x18
+ .PPC.EMB.apuinfo
+                0x00000000       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .PPC.EMB.apuinfo
+                0x00000018       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .PPC.EMB.apuinfo
+                0x00000030       0x18 ./Project_Settings/Startup_Code/startup.o
+ .PPC.EMB.apuinfo
+                0x00000048       0x18 ./src/main.o
+ .PPC.EMB.apuinfo
+                0x00000060       0x18 ./src/intc_sw_handlers.o
+ .PPC.EMB.apuinfo
+                0x00000078       0x18 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .PPC.EMB.apuinfo
+                0x00000090       0x18 ./src/Vector.o
+ .PPC.EMB.apuinfo
+                0x000000a8       0x18 ./src/MPC57xx__Interrupt_Init.o
+ .PPC.EMB.apuinfo
+                0x000000c0       0x18 ./src/MPC574xP_SystemInit.o
+ .PPC.EMB.apuinfo
+                0x000000d8       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+ .PPC.EMB.apuinfo
+                0x000000f0       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .PPC.EMB.apuinfo
+                0x00000108       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+
+.comment        0x00000000       0x8e
+ .comment       0x00000000       0x8e ./src/main.o
+                                 0x8f (size before relaxing)
+ .comment       0x0000008e       0x8f ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .comment       0x0000008e       0x8f ./src/flashrchw.o
+ .comment       0x0000008e       0x8f ./src/Vector.o
+ .comment       0x0000008e       0x8f ./src/MPC57xx__Interrupt_Init.o
+ .comment       0x0000008e       0x8f ./src/MPC574xP_SystemInit.o
+
+.debug_line     0x00000000      0xd4c
+ .debug_line    0x00000000       0xdb ./Project_Settings/Startup_Code/startup.o
+ .debug_line    0x000000db      0x225 ./src/main.o
+ .debug_line    0x00000300       0x5d ./src/intc_sw_handlers.o
+ .debug_line    0x0000035d      0x227 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_line    0x00000584      0x1c6 ./src/flashrchw.o
+ .debug_line    0x0000074a       0xfd ./src/Vector.o
+ .debug_line    0x00000847      0x256 ./src/MPC57xx__Interrupt_Init.o
+ .debug_line    0x00000a9d      0x2af ./src/MPC574xP_SystemInit.o
+
+.debug_info     0x00000000     0x5d5d
+ .debug_info    0x00000000       0x9e ./Project_Settings/Startup_Code/startup.o
+ .debug_info    0x0000009e       0x9d ./src/main.o
+ .debug_info    0x0000013b       0x8d ./src/intc_sw_handlers.o
+ .debug_info    0x000001c8       0xb4 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_info    0x0000027c       0x93 ./src/flashrchw.o
+ .debug_info    0x0000030f       0x21 ./src/Vector.o
+ .debug_info    0x00000330      0x5eb ./src/MPC57xx__Interrupt_Init.o
+ .debug_info    0x0000091b     0x5442 ./src/MPC574xP_SystemInit.o
+
+.debug_abbrev   0x00000000      0x436
+ .debug_abbrev  0x00000000       0x14 ./Project_Settings/Startup_Code/startup.o
+ .debug_abbrev  0x00000014       0x5f ./src/main.o
+ .debug_abbrev  0x00000073       0x14 ./src/intc_sw_handlers.o
+ .debug_abbrev  0x00000087       0x7c ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_abbrev  0x00000103       0x4e ./src/flashrchw.o
+ .debug_abbrev  0x00000151       0x13 ./src/Vector.o
+ .debug_abbrev  0x00000164      0x17d ./src/MPC57xx__Interrupt_Init.o
+ .debug_abbrev  0x000002e1      0x155 ./src/MPC574xP_SystemInit.o
+
+.debug_aranges  0x00000000      0x128
+ .debug_aranges
+                0x00000000       0x20 ./Project_Settings/Startup_Code/startup.o
+ .debug_aranges
+                0x00000020       0x20 ./src/main.o
+ .debug_aranges
+                0x00000040       0x20 ./src/intc_sw_handlers.o
+ .debug_aranges
+                0x00000060       0x20 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_aranges
+                0x00000080       0x18 ./src/flashrchw.o
+ .debug_aranges
+                0x00000098       0x18 ./src/Vector.o
+ .debug_aranges
+                0x000000b0       0x38 ./src/MPC57xx__Interrupt_Init.o
+ .debug_aranges
+                0x000000e8       0x40 ./src/MPC574xP_SystemInit.o
+
+.debug_ranges   0x00000000       0x78
+ .debug_ranges  0x00000000       0x10 ./src/main.o
+ .debug_ranges  0x00000010       0x10 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_ranges  0x00000020       0x28 ./src/MPC57xx__Interrupt_Init.o
+ .debug_ranges  0x00000048       0x30 ./src/MPC574xP_SystemInit.o
+
+.debug_macro    0x00000000     0xd1e9
+ .debug_macro   0x00000000       0xcc ./src/main.o
+ .debug_macro   0x000000cc      0x616 ./src/main.o
+ .debug_macro   0x000006e2       0x52 ./src/main.o
+ .debug_macro   0x00000734       0xa0 ./src/main.o
+ .debug_macro   0x000007d4       0x16 ./src/main.o
+ .debug_macro   0x000007ea       0x64 ./src/main.o
+ .debug_macro   0x0000084e      0x1a3 ./src/main.o
+ .debug_macro   0x000009f1      0x133 ./src/main.o
+ .debug_macro   0x00000b24       0x9d ./src/main.o
+ .debug_macro   0x00000bc1       0x10 ./src/main.o
+ .debug_macro   0x00000bd1      0x15b ./src/main.o
+ .debug_macro   0x00000d2c       0x28 ./src/main.o
+ .debug_macro   0x00000d54       0x58 ./src/main.o
+ .debug_macro   0x00000dac     0xb50a ./src/main.o
+ .debug_macro   0x0000c2b6       0x10 ./src/main.o
+ .debug_macro   0x0000c2c6      0xb7e ./src/main.o
+ .debug_macro   0x0000ce44       0xc8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x0000cf0c       0xd1 ./src/flashrchw.o
+ .debug_macro   0x0000cfdd       0x41 ./src/Vector.o
+ .debug_macro   0x0000d01e       0x2e ./src/Vector.o
+ .debug_macro   0x0000d04c       0xd1 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x0000d11d       0xcc ./src/MPC574xP_SystemInit.o
+
+.debug_str      0x00000000    0x3ae6f
+ .debug_str     0x00000000    0x382a7 ./src/main.o
+                              0x38324 (size before relaxing)
+ .debug_str     0x000382a7       0x44 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+                              0x38356 (size before relaxing)
+ .debug_str     0x000382eb       0xe1 ./src/flashrchw.o
+                               0x3b05 (size before relaxing)
+ .debug_str     0x000383cc      0x185 ./src/Vector.o
+                               0x24c5 (size before relaxing)
+ .debug_str     0x00038551      0x324 ./src/MPC57xx__Interrupt_Init.o
+                              0x376cd (size before relaxing)
+ .debug_str     0x00038875     0x25fa ./src/MPC574xP_SystemInit.o
+                              0x3abae (size before relaxing)
+
+.debug_frame    0x00000000      0x1bc
+ .debug_frame   0x00000000       0x2c ./src/main.o
+ .debug_frame   0x0000002c       0x2c ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_frame   0x00000058       0xa0 ./src/MPC57xx__Interrupt_Init.o
+ .debug_frame   0x000000f8       0xc4 ./src/MPC574xP_SystemInit.o

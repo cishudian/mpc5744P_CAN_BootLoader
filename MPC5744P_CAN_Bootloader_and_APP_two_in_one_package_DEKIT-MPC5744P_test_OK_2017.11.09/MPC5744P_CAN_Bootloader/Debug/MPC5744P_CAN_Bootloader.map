@@ -1,0 +1,1726 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+                              ./src/main.o (__eabi)
+
+Allocating common symbols
+Common symbol       size              file
+
+CAN_TxMsg           0x20              ./src/FlexCAN_api.o
+dest                0x4               ./src/load.o
+pflash_pfcr0        0x4               ./src/load.o
+blkLockState        0x4               ./src/load.o
+lowBlockSelect      0x4               ./src/load.o
+Sline               0x80              ./src/main.o
+memRegionInfo       0x4c              ./src/load.o
+sum                 0x4               ./src/load.o
+bcCtxData           0x28              ./src/load.o
+temp                0x4               ./src/load.o
+pSln                0x1               ./src/main.o
+failedData          0x4               ./src/load.o
+midBlockSelect      0x4               ./src/load.o
+pflash_pfcr2        0x4               ./src/load.o
+g_usrCnt            0x4               ./src/Flash_Driver_utils.o
+pvCtxData           0x28              ./src/load.o
+returnCode          0x4               ./src/load.o
+source              0x4               ./src/load.o
+STATE               0x1               ./src/main.o
+highBlockSelect     0x4               ./src/load.o
+buffer              0x1000            ./src/load.o
+srcd                0x30              ./src/load.o
+csCtxData           0x28              ./src/load.o
+skipFlag            0x1               ./src/load.o
+failedSource        0x4               ./src/load.o
+size                0x4               ./src/load.o
+pflash_pfcr1        0x4               ./src/load.o
+CAN_RxMsg           0x20              ./src/FlexCAN_api.o
+dummyCtxData        0x28              ./src/load.o
+demoResult          0x4               ./src/load.o
+pgmCtxData          0x28              ./src/load.o
+pflash_pfcr3        0x4               ./src/load.o
+exPgmCtxData        0x28              ./src/load.o
+CAN_RxFeedbackMsg   0x20              ./src/FlexCAN_api.o
+n256KBlockSelect    0x8               ./src/load.o
+failedAddress       0x4               ./src/load.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .data          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .bss           0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .fixup         0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .sbss          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .sbss2         0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .gcc_except_table
+                0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .data          0x00000000        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .rodata.UserMarginReadCheck_C
+                0x00000000      0x25c ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_line    0x00000000       0xc1 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .debug_str     0x00000000     0x23a6 ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/SetLock.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/SetLock.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/SetLock.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/SetLock.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/SetLock.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/SetLock.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/SetLock.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/SetLock.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/SetLock.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/SetLock.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/SetLock.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .rodata.OverPgmProtGetStatus_C
+                0x00000000      0x108 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_line    0x00000000       0xc2 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .debug_str     0x00000000     0x23a8 ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/GetLock.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/GetLock.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/GetLock.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/GetLock.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/GetLock.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/GetLock.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/GetLock.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/GetLock.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/GetLock.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/GetLock.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/GetLock.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .rodata.FlashSuspend_C
+                0x00000000       0xf0 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_line    0x00000000       0xba ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .debug_str     0x00000000     0x2398 ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashSuspend.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashResume.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashResume.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashResume.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashResume.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashResume.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashResume.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashResume.o
+ .rodata.FlashResume_C
+                0x00000000       0xa4 ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_line    0x00000000       0xb9 ./Flash_Driver/c-array_driver/FlashResume.o
+ .debug_str     0x00000000     0x2396 ./Flash_Driver/c-array_driver/FlashResume.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashResume.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashProgram.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashInit.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashInit.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashInit.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashInit.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashInit.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashInit.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashInit.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashInit.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashInit.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashInit.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashInit.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .rodata.FlashEraseAlternate_C
+                0x00000000       0xb0 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_line    0x00000000       0xc1 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .debug_str     0x00000000     0x23a6 ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashErase.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashErase.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashErase.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashErase.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashErase.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashErase.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashErase.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashErase.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashErase.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashErase.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashErase.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .rodata.FlashEDCAfterECCLogicCheck_C
+                0x00000000      0x360 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_line    0x00000000       0xc8 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .debug_str     0x00000000     0x23b4 ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .rodata.FlashECCLogicCheck_C
+                0x00000000      0x3bc ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_line    0x00000000       0xc0 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .debug_str     0x00000000     0x23a4 ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .rodata.FlashArrayIntegritySuspend_C
+                0x00000000       0x78 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_line    0x00000000       0xc8 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .debug_str     0x00000000     0x23b4 ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .rodata.FlashArrayIntegrityResume_C
+                0x00000000       0xb0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_line    0x00000000       0xc7 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .debug_str     0x00000000     0x23b2 ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .rodata.FlashArrayIntegrityCheck_C
+                0x00000000      0x250 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_line    0x00000000       0xc6 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .debug_str     0x00000000     0x23b0 ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .rodata.FlashAddressEncodeLogicCheck_C
+                0x00000000      0x2b4 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_line    0x00000000       0xca ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .debug_str     0x00000000     0x23b8 ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .rodata.FlashAbort_C
+                0x00000000      0x12c ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_line    0x00000000       0xb8 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .debug_str     0x00000000     0x2394 ./Flash_Driver/c-array_driver/FlashAbort.o
+ .comment       0x00000000       0x8f ./Flash_Driver/c-array_driver/FlashAbort.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/CheckSum.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/CheckSum.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/CheckSum.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/CheckSum.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/CheckSum.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/CheckSum.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/CheckSum.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/CheckSum.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/CheckSum.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/CheckSum.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/CheckSum.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .group         0x00000000        0x8 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .text          0x00000000        0x0 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .data          0x00000000        0x0 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .bss           0x00000000        0x0 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .debug_macro   0x00000000      0x61c ./Flash_Driver/c-array_driver/BlankCheck.o
+ .debug_macro   0x00000000       0x52 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .debug_macro   0x00000000       0xa0 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .debug_macro   0x00000000       0x16 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .debug_macro   0x00000000      0x61c ./src/main.o
+ .debug_macro   0x00000000       0x52 ./src/main.o
+ .debug_macro   0x00000000       0xa0 ./src/main.o
+ .debug_macro   0x00000000       0x16 ./src/main.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .group         0x00000000        0x8 ./src/load.o
+ .text          0x00000000        0x0 ./src/load.o
+ .data          0x00000000        0x0 ./src/load.o
+ .bss           0x00000000        0x0 ./src/load.o
+ .text.SRecord_Copy
+                0x00000000       0x6c ./src/load.o
+ .text.SRecord_Merge
+                0x00000000       0x70 ./src/load.o
+ .debug_macro   0x00000000      0x61c ./src/load.o
+ .debug_macro   0x00000000       0x52 ./src/load.o
+ .debug_macro   0x00000000       0xa0 ./src/load.o
+ .debug_macro   0x00000000       0x16 ./src/load.o
+ .debug_macro   0x00000000       0x64 ./src/load.o
+ .debug_macro   0x00000000      0x1a3 ./src/load.o
+ .debug_macro   0x00000000      0x133 ./src/load.o
+ .debug_macro   0x00000000       0x9d ./src/load.o
+ .debug_macro   0x00000000       0x10 ./src/load.o
+ .debug_macro   0x00000000      0x15b ./src/load.o
+ .debug_macro   0x00000000       0x28 ./src/load.o
+ .debug_macro   0x00000000       0x58 ./src/load.o
+ .debug_macro   0x00000000     0xb50a ./src/load.o
+ .debug_macro   0x00000000       0x16 ./src/load.o
+ .debug_macro   0x00000000      0x662 ./src/load.o
+ .debug_macro   0x00000000       0x28 ./src/load.o
+ .debug_macro   0x00000000       0x10 ./src/load.o
+ .debug_macro   0x00000000       0xac ./src/load.o
+ .debug_macro   0x00000000       0x82 ./src/load.o
+ .debug_macro   0x00000000       0x70 ./src/load.o
+ .debug_macro   0x00000000       0x8e ./src/load.o
+ .debug_macro   0x00000000      0x1ad ./src/load.o
+ .data          0x00000000        0x0 ./src/intc_sw_handlers.o
+ .bss           0x00000000        0x0 ./src/intc_sw_handlers.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .text          0x00000000        0x0 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .data          0x00000000        0x0 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .bss           0x00000000        0x0 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0x61c ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x52 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0xa0 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x16 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x64 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0x1a3 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0x133 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x9d ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x10 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0x15b ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x28 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000       0x58 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000     0xb50a ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x00000000      0x1ad ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flexcan_init.o
+ .text          0x00000000        0x0 ./src/flexcan_init.o
+ .data          0x00000000        0x0 ./src/flexcan_init.o
+ .bss           0x00000000        0x0 ./src/flexcan_init.o
+ .rodata.CAN_1_RximrArrayt
+                0x00000000      0x100 ./src/flexcan_init.o
+ .text.flexcan_init_fnc
+                0x00000000       0x4c ./src/flexcan_init.o
+ .text.flexcan_1_deinit_fnc
+                0x00000000       0x96 ./src/flexcan_init.o
+ .text.flexcan_1_init_fnc
+                0x00000000      0x2d6 ./src/flexcan_init.o
+ .debug_macro   0x00000000      0x61c ./src/flexcan_init.o
+ .debug_macro   0x00000000       0x52 ./src/flexcan_init.o
+ .debug_macro   0x00000000       0xa0 ./src/flexcan_init.o
+ .debug_macro   0x00000000       0x16 ./src/flexcan_init.o
+ .debug_macro   0x00000000       0x64 ./src/flexcan_init.o
+ .debug_macro   0x00000000      0x1a3 ./src/flexcan_init.o
+ .debug_macro   0x00000000      0x133 ./src/flexcan_init.o
+ .debug_macro   0x00000000       0x9d ./src/flexcan_init.o
+ .debug_macro   0x00000000       0x10 ./src/flexcan_init.o
+ .debug_macro   0x00000000      0x15b ./src/flexcan_init.o
+ .debug_macro   0x00000000       0x28 ./src/flexcan_init.o
+ .debug_macro   0x00000000       0x58 ./src/flexcan_init.o
+ .debug_macro   0x00000000     0xb50a ./src/flexcan_init.o
+ .debug_macro   0x00000000      0x1ad ./src/flexcan_init.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/flashrchw.o
+ .text          0x00000000        0x0 ./src/flashrchw.o
+ .data          0x00000000        0x0 ./src/flashrchw.o
+ .bss           0x00000000        0x0 ./src/flashrchw.o
+ .debug_macro   0x00000000      0x61c ./src/flashrchw.o
+ .debug_macro   0x00000000       0x52 ./src/flashrchw.o
+ .debug_macro   0x00000000       0xa0 ./src/flashrchw.o
+ .debug_macro   0x00000000       0x16 ./src/flashrchw.o
+ .debug_macro   0x00000000       0x64 ./src/flashrchw.o
+ .debug_macro   0x00000000      0x1a3 ./src/flashrchw.o
+ .debug_macro   0x00000000      0x133 ./src/flashrchw.o
+ .debug_macro   0x00000000       0x9d ./src/flashrchw.o
+ .debug_macro   0x00000000       0x10 ./src/flashrchw.o
+ .debug_macro   0x00000000      0x15b ./src/flashrchw.o
+ .debug_macro   0x00000000       0x28 ./src/flashrchw.o
+ .debug_macro   0x00000000       0x58 ./src/flashrchw.o
+ .group         0x00000000        0x8 ./src/block_mpc574xP.o
+ .group         0x00000000        0x8 ./src/block_mpc574xP.o
+ .group         0x00000000        0x8 ./src/block_mpc574xP.o
+ .group         0x00000000        0x8 ./src/block_mpc574xP.o
+ .group         0x00000000        0x8 ./src/block_mpc574xP.o
+ .group         0x00000000        0x8 ./src/block_mpc574xP.o
+ .group         0x00000000        0x8 ./src/block_mpc574xP.o
+ .group         0x00000000        0x8 ./src/block_mpc574xP.o
+ .group         0x00000000        0x8 ./src/block_mpc574xP.o
+ .text          0x00000000        0x0 ./src/block_mpc574xP.o
+ .data          0x00000000        0x0 ./src/block_mpc574xP.o
+ .bss           0x00000000        0x0 ./src/block_mpc574xP.o
+ .debug_macro   0x00000000      0x61c ./src/block_mpc574xP.o
+ .debug_macro   0x00000000       0x52 ./src/block_mpc574xP.o
+ .debug_macro   0x00000000       0xa0 ./src/block_mpc574xP.o
+ .debug_macro   0x00000000       0x16 ./src/block_mpc574xP.o
+ .debug_macro   0x00000000       0x16 ./src/block_mpc574xP.o
+ .debug_macro   0x00000000       0xac ./src/block_mpc574xP.o
+ .debug_macro   0x00000000      0x662 ./src/block_mpc574xP.o
+ .debug_macro   0x00000000       0x82 ./src/block_mpc574xP.o
+ .debug_macro   0x00000000       0x70 ./src/block_mpc574xP.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .group         0x00000000        0x8 ./src/Vector.o
+ .text          0x00000000        0x0 ./src/Vector.o
+ .data          0x00000000        0x0 ./src/Vector.o
+ .bss           0x00000000        0x0 ./src/Vector.o
+ .text.INTC_INTCInterruptHandler
+                0x00000000       0x38 ./src/Vector.o
+ .debug_macro   0x00000000      0x61c ./src/Vector.o
+ .debug_macro   0x00000000       0x52 ./src/Vector.o
+ .debug_macro   0x00000000       0xa0 ./src/Vector.o
+ .debug_macro   0x00000000       0x16 ./src/Vector.o
+ .debug_macro   0x00000000       0x2e ./src/Vector.o
+ .debug_macro   0x00000000       0x64 ./src/Vector.o
+ .debug_macro   0x00000000      0x1a3 ./src/Vector.o
+ .debug_macro   0x00000000      0x133 ./src/Vector.o
+ .debug_macro   0x00000000       0x9d ./src/Vector.o
+ .debug_macro   0x00000000       0x10 ./src/Vector.o
+ .debug_macro   0x00000000      0x15b ./src/Vector.o
+ .debug_macro   0x00000000       0x28 ./src/Vector.o
+ .debug_macro   0x00000000       0x58 ./src/Vector.o
+ .debug_macro   0x00000000     0xb50a ./src/Vector.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC57xx__Interrupt_Init.o
+ .text          0x00000000        0x0 ./src/MPC57xx__Interrupt_Init.o
+ .data          0x00000000        0x0 ./src/MPC57xx__Interrupt_Init.o
+ .bss           0x00000000        0x0 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000      0x61c ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x52 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0xa0 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x16 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x64 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000      0x1a3 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000      0x133 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x9d ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x10 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000      0x15b ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x28 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x58 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000     0xb50a ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x00000000       0x2e ./src/MPC57xx__Interrupt_Init.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .group         0x00000000        0x8 ./src/MPC574xP_SystemInit.o
+ .text          0x00000000        0x0 ./src/MPC574xP_SystemInit.o
+ .data          0x00000000        0x0 ./src/MPC574xP_SystemInit.o
+ .bss           0x00000000        0x0 ./src/MPC574xP_SystemInit.o
+ .text.PIT_Channel0_100ms_Init
+                0x00000000       0x68 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0x61c ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x52 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0xa0 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x16 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x64 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0x1a3 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0x133 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x9d ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x10 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0x15b ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x28 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x58 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000     0xb50a ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000       0x10 ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x00000000      0xb7e ./src/MPC574xP_SystemInit.o
+ .data          0x00000000        0x0 ./src/IVORx_vle.o
+ .bss           0x00000000        0x0 ./src/IVORx_vle.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/FlexCAN_api.o
+ .text          0x00000000        0x0 ./src/FlexCAN_api.o
+ .data          0x00000000        0x0 ./src/FlexCAN_api.o
+ .bss           0x00000000        0x0 ./src/FlexCAN_api.o
+ .text.CAN1_TransmitMsg
+                0x00000000      0x158 ./src/FlexCAN_api.o
+ .text.CAN1_ReceiveInit
+                0x00000000      0x106 ./src/FlexCAN_api.o
+ .text.ToggleLED1_IO
+                0x00000000       0x80 ./src/FlexCAN_api.o
+ .text.FlexCAN_api_test
+                0x00000000      0x20e ./src/FlexCAN_api.o
+ .bss.myCNT.14699
+                0x00000000        0x1 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000      0x61c ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x52 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0xa0 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x16 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x64 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000      0x1a3 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000      0x133 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x9d ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x10 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000      0x15b ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x28 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x58 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000     0xb50a ./src/FlexCAN_api.o
+ .debug_macro   0x00000000      0x1ad ./src/FlexCAN_api.o
+ .debug_macro   0x00000000      0xb7e ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x16 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000      0x662 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x28 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x10 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0xac ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x82 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x70 ./src/FlexCAN_api.o
+ .debug_macro   0x00000000       0x8e ./src/FlexCAN_api.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .group         0x00000000        0x8 ./src/Flash_Driver_utils.o
+ .text          0x00000000        0x0 ./src/Flash_Driver_utils.o
+ .data          0x00000000        0x0 ./src/Flash_Driver_utils.o
+ .bss           0x00000000        0x0 ./src/Flash_Driver_utils.o
+ .text.App_CheckSum
+                0x00000000       0xe0 ./src/Flash_Driver_utils.o
+ .text.SyncProgram
+                0x00000000       0x9e ./src/Flash_Driver_utils.o
+ .text.TurnOnMCR_RWE
+                0x00000000       0xbe ./src/Flash_Driver_utils.o
+ .rodata        0x00000000       0x10 ./src/Flash_Driver_utils.o
+ .text.TurnOnMCR_EER
+                0x00000000       0xf6 ./src/Flash_Driver_utils.o
+ .text.EnableSoftwareWatchdog
+                0x00000000       0x58 ./src/Flash_Driver_utils.o
+ .text.DisableSoftwareWatchdog
+                0x00000000       0x3a ./src/Flash_Driver_utils.o
+ .text.App_FlashExpressProgram
+                0x00000000       0x78 ./src/Flash_Driver_utils.o
+ .text.RestoreFlashControllerCache
+                0x00000000       0x28 ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000      0x61c ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000       0x52 ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000       0xa0 ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000       0x16 ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000       0x16 ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000      0x662 ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000       0x28 ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000       0xac ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000       0x82 ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000       0x70 ./src/Flash_Driver_utils.o
+ .debug_macro   0x00000000       0x10 ./src/Flash_Driver_utils.o
+ .bss           0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+ .data          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .bss           0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .jcr           0x00000000        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .text          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .data          0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .bss           0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .fixup         0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .sdata         0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .sdata2        0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ .gcc_except_table
+                0x00000000        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash_rchw       0x00f98000         0x00000004
+cpu0_reset_vec   0x00f98004         0x00000004
+m_text           0x00f99000         0x00007000
+m_data           0x40000000         0x00060000
+local_dmem       0x50800000         0x00010000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+LOAD ./Flash_Driver/c-array_driver/UserMarginReadCheck.o
+LOAD ./Flash_Driver/c-array_driver/SetLock.o
+LOAD ./Flash_Driver/c-array_driver/ProgramVerify.o
+LOAD ./Flash_Driver/c-array_driver/OverPgmProtGetStatus.o
+LOAD ./Flash_Driver/c-array_driver/GetLock.o
+LOAD ./Flash_Driver/c-array_driver/FlashSuspend.o
+LOAD ./Flash_Driver/c-array_driver/FlashResume.o
+LOAD ./Flash_Driver/c-array_driver/FlashProgram.o
+LOAD ./Flash_Driver/c-array_driver/FlashInit.o
+LOAD ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+LOAD ./Flash_Driver/c-array_driver/FlashEraseAlternate.o
+LOAD ./Flash_Driver/c-array_driver/FlashErase.o
+LOAD ./Flash_Driver/c-array_driver/FlashEDCAfterECCLogicCheck.o
+LOAD ./Flash_Driver/c-array_driver/FlashECCLogicCheck.o
+LOAD ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+LOAD ./Flash_Driver/c-array_driver/FlashArrayIntegritySuspend.o
+LOAD ./Flash_Driver/c-array_driver/FlashArrayIntegrityResume.o
+LOAD ./Flash_Driver/c-array_driver/FlashArrayIntegrityCheck.o
+LOAD ./Flash_Driver/c-array_driver/FlashAddressEncodeLogicCheck.o
+LOAD ./Flash_Driver/c-array_driver/FlashAbort.o
+LOAD ./Flash_Driver/c-array_driver/CheckSum.o
+LOAD ./Flash_Driver/c-array_driver/BlankCheck.o
+LOAD ./Project_Settings/Startup_Code/startup.o
+LOAD ./src/main.o
+LOAD ./src/load.o
+LOAD ./src/intc_sw_handlers.o
+LOAD ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+LOAD ./src/flexcan_init.o
+LOAD ./src/flashrchw.o
+LOAD ./src/block_mpc574xP.o
+LOAD ./src/Vector.o
+LOAD ./src/MPC57xx__Interrupt_Init.o
+LOAD ./src/MPC574xP_SystemInit.o
+LOAD ./src/IVORx_vle.o
+LOAD ./src/FlexCAN_api.o
+LOAD ./src/Flash_Driver_utils.o
+START GROUP
+LOAD D:/NXP/S32DS_Power_v1.2/S32DS/e200_ewl2/lib/e200z4/fp\libc99.a
+LOAD D:/NXP/S32DS_Power_v1.2/S32DS/e200_ewl2/lib/e200z4/fp\libm.a
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a
+LOAD D:/NXP/S32DS_Power_v1.2/S32DS/e200_ewl2/lib/e200z4/fp\librt.a
+END GROUP
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+LOAD d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+                0x00000000                __HEAP_SIZE = 0x0
+                0x00001000                __STACK_SIZE = 0x1000
+                0x00060000                SRAM_SIZE = 0x60000
+                0x40000000                SRAM_BASE_ADDR = 0x40000000
+                0x00010000                LOCALDMEM_SIZE = 0x10000
+                0x50800000                LOCALDMEM_BASE_ADDR = 0x50800000
+
+.rchw           0x00f98000        0x4
+ *(.rchw)
+ .rchw          0x00f98000        0x4 ./src/flashrchw.o
+                0x00f98000                RCHW1
+
+.cpu0_reset_vector
+                0x00f98004        0x4
+ *(.cpu0_reset_vector)
+ .cpu0_reset_vector
+                0x00f98004        0x4 ./src/flashrchw.o
+                0x00f98004                RCHW2
+
+.startup        0x00f99000      0x1fe
+                0x00f99000                __start = .
+ *(.startup)
+ .startup       0x00f99000      0x1fe ./Project_Settings/Startup_Code/startup.o
+                0x00f99000                _start
+
+.core_exceptions_table
+                0x00f9a000      0x100
+                0x00f9a000                __IVPR_VALUE = .
+ *(.core_exceptions_table)
+ .core_exceptions_table
+                0x00f9a000      0x100 ./src/Vector.o
+                0x00f9a000                VTABLE
+                0x00f9a000                IVOR0_Vector
+                0x00f9a030                IVOR3_Vector
+                0x00f9a040                IVOR4_Vector
+                0x00f9a050                IVOR5_Vector
+                0x00f9a060                IVOR6_Vector
+                0x00f9a070                IVOR7_Vector
+                0x00f9a080                IVOR8_Vector
+                0x00f9a090                IVOR9_Vector
+                0x00f9a0a0                IVOR10_Vector
+                0x00f9a0b0                IVOR11_Vector
+                0x00f9a0c0                IVOR12_Vector
+                0x00f9a0d0                IVOR13_Vector
+                0x00f9a0e0                IVOR14_Vector
+                0x00f9a0f0                IVOR15_Vector
+
+.intc_vector_table
+                0x00f9b000      0xb78
+ *(.intc_vector_table)
+ .intc_vector_table
+                0x00f9b000      0xb78 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+                0x00f9b000                IntcIsrVectorTable
+
+.text           0x00f9bb80     0x2a50
+ *(.text.startup)
+ *(.text)
+ .text          0x00f9bb80      0x16c d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *fill*         0x00f9bcec        0x4 
+ .text          0x00f9bcf0       0x48 ./src/intc_sw_handlers.o
+                0x00f9bcf0                IVOR4_Handler
+ *fill*         0x00f9bd38        0x8 
+ .text          0x00f9bd40      0x1ac ./src/IVORx_vle.o
+                0x00f9bd40                IVOR1_Handler
+                0x00f9be16                IVOR2_Handler
+ .text          0x00f9beec       0x4a d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+                0x00f9beec                __eabi
+ *fill*         0x00f9bf36        0x2 
+ .text          0x00f9bf38       0x48 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ *(.text.*)
+ .text.app_entry
+                0x00f9bf80       0x1c ./src/main.o
+                0x00f9bf80                app_entry
+ .text.main     0x00f9bf9c      0x354 ./src/main.o
+                0x00f9bf9c                main
+ .text.SRcdCvt  0x00f9c2f0      0x274 ./src/load.o
+                0x00f9c2f0                SRcdCvt
+ .text.SrcdAlign4W
+                0x00f9c564      0x11e ./src/load.o
+                0x00f9c564                SrcdAlign4W
+ *fill*         0x00f9c682        0x2 
+ .text.hex2value
+                0x00f9c684       0xd8 ./src/load.o
+ .text.RcvDtProc
+                0x00f9c75c       0x9e ./src/load.o
+                0x00f9c75c                RcvDtProc
+ *fill*         0x00f9c7fa        0x2 
+ .text.StatusAck
+                0x00f9c7fc       0x96 ./src/load.o
+                0x00f9c7fc                StatusAck
+ *fill*         0x00f9c892        0x2 
+ .text.CleanRAM
+                0x00f9c894       0x84 ./src/load.o
+                0x00f9c894                CleanRAM
+ .text.Prepare_Before_Jump
+                0x00f9c918       0x2a ./src/load.o
+                0x00f9c918                Prepare_Before_Jump
+ *fill*         0x00f9c942        0x2 
+ .text.SrcdProg_RAM
+                0x00f9c944       0x62 ./src/load.o
+                0x00f9c944                SrcdProg_RAM
+ *fill*         0x00f9c9a6        0x2 
+ .text.SrcdProg_PFlash
+                0x00f9c9a8       0xcc ./src/load.o
+                0x00f9c9a8                SrcdProg_PFlash
+ .text.Flash_Init
+                0x00f9ca74      0x2c6 ./src/load.o
+                0x00f9ca74                Flash_Init
+ *fill*         0x00f9cd3a        0x2 
+ .text.erase_flash_except_bootloader
+                0x00f9cd3c      0x282 ./src/load.o
+                0x00f9cd3c                erase_flash_except_bootloader
+ *fill*         0x00f9cfbe        0x2 
+ .text.Cpu_DelayMS
+                0x00f9cfc0       0x60 ./src/load.o
+                0x00f9cfc0                Cpu_DelayMS
+ .text.dummy    0x00f9d020        0xc ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+                0x00f9d020                dummy
+ .text.flexcan_0_deinit_fnc
+                0x00f9d02c       0x88 ./src/flexcan_init.o
+                0x00f9d02c                flexcan_0_deinit_fnc
+ .text.flexcan_0_init_fnc
+                0x00f9d0b4      0x238 ./src/flexcan_init.o
+                0x00f9d0b4                flexcan_0_init_fnc
+ .text.InitMemRegionInfo
+                0x00f9d2ec       0x16 ./src/block_mpc574xP.o
+                0x00f9d2ec                InitMemRegionInfo
+ *fill*         0x00f9d302        0x2 
+ .text.SetIVPR  0x00f9d304       0x1a ./src/MPC57xx__Interrupt_Init.o
+                0x00f9d304                SetIVPR
+ *fill*         0x00f9d31e        0x2 
+ .text.InitINTC
+                0x00f9d320       0x32 ./src/MPC57xx__Interrupt_Init.o
+                0x00f9d320                InitINTC
+ *fill*         0x00f9d352        0x2 
+ .text.enableIrq
+                0x00f9d354       0x20 ./src/MPC57xx__Interrupt_Init.o
+                0x00f9d354                enableIrq
+ .text.xcptn_xmpl
+                0x00f9d374       0x34 ./src/MPC57xx__Interrupt_Init.o
+                0x00f9d374                xcptn_xmpl
+ .text.Sys_Init
+                0x00f9d3a8      0x14e ./src/MPC574xP_SystemInit.o
+                0x00f9d3a8                Sys_Init
+ *fill*         0x00f9d4f6        0x2 
+ .text.GPIO_Aux_Function_Config
+                0x00f9d4f8       0xbc ./src/MPC574xP_SystemInit.o
+                0x00f9d4f8                GPIO_Aux_Function_Config
+ .text.Periphral_INTC_Init
+                0x00f9d5b4       0x6c ./src/MPC574xP_SystemInit.o
+                0x00f9d5b4                Periphral_INTC_Init
+ .text.PIT_Channel0_100ms_ISR
+                0x00f9d620       0xe8 ./src/MPC574xP_SystemInit.o
+                0x00f9d620                PIT_Channel0_100ms_ISR
+ .text.CAN0_TransmitMsg
+                0x00f9d708      0x138 ./src/FlexCAN_api.o
+                0x00f9d708                CAN0_TransmitMsg
+ .text.CAN0_ReceiveInit
+                0x00f9d840       0xea ./src/FlexCAN_api.o
+                0x00f9d840                CAN0_ReceiveInit
+ *fill*         0x00f9d92a        0x2 
+ .text.CAN0_ReceiveMsg
+                0x00f9d92c      0x170 ./src/FlexCAN_api.o
+                0x00f9d92c                CAN0_ReceiveMsg
+ .text.CAN1_ReceiveMsg
+                0x00f9da9c      0x194 ./src/FlexCAN_api.o
+                0x00f9da9c                CAN1_ReceiveMsg
+ .text.CAN0_BusOff_Handle
+                0x00f9dc30       0xa4 ./src/FlexCAN_api.o
+                0x00f9dc30                CAN0_BusOff_Handle
+ .text.CAN1_BusOff_Handle
+                0x00f9dcd4       0xb4 ./src/FlexCAN_api.o
+                0x00f9dcd4                CAN1_BusOff_Handle
+ .text.FlexCAN0_ESR_ISR
+                0x00f9dd88       0x22 ./src/FlexCAN_api.o
+                0x00f9dd88                FlexCAN0_ESR_ISR
+ *fill*         0x00f9ddaa        0x2 
+ .text.FlexCAN0_ESR_BTR_ISR
+                0x00f9ddac       0x3e ./src/FlexCAN_api.o
+                0x00f9ddac                FlexCAN0_ESR_BTR_ISR
+ *fill*         0x00f9ddea        0x2 
+ .text.FlexCAN0_BUF03_ISR
+                0x00f9ddec       0x1c ./src/FlexCAN_api.o
+                0x00f9ddec                FlexCAN0_BUF03_ISR
+ .text.FlexCAN0_BUF47_ISR
+                0x00f9de08       0xfa ./src/FlexCAN_api.o
+                0x00f9de08                FlexCAN0_BUF47_ISR
+ *fill*         0x00f9df02        0x2 
+ .text.FlexCAN1_ESR_ISR
+                0x00f9df04       0x26 ./src/FlexCAN_api.o
+                0x00f9df04                FlexCAN1_ESR_ISR
+ *fill*         0x00f9df2a        0x2 
+ .text.FlexCAN1_ESR_BTR_ISR
+                0x00f9df2c       0x46 ./src/FlexCAN_api.o
+                0x00f9df2c                FlexCAN1_ESR_BTR_ISR
+ *fill*         0x00f9df72        0x2 
+ .text.FlexCAN1_BUF03_ISR
+                0x00f9df74       0x1e ./src/FlexCAN_api.o
+                0x00f9df74                FlexCAN1_BUF03_ISR
+ *fill*         0x00f9df92        0x2 
+ .text.FlexCAN1_BUF47_ISR
+                0x00f9df94      0x106 ./src/FlexCAN_api.o
+                0x00f9df94                FlexCAN1_BUF47_ISR
+ *fill*         0x00f9e09a        0x2 
+ .text.FlexCAN1_BUF811_ISR
+                0x00f9e09c       0x20 ./src/FlexCAN_api.o
+                0x00f9e09c                FlexCAN1_BUF811_ISR
+ .text.FlexCAN1_BUF1215_ISR
+                0x00f9e0bc      0x108 ./src/FlexCAN_api.o
+                0x00f9e0bc                FlexCAN1_BUF1215_ISR
+ .text.User_App
+                0x00f9e1c4       0x40 ./src/Flash_Driver_utils.o
+                0x00f9e1c4                User_App
+ .text.WaitOperationFinish
+                0x00f9e204       0xb4 ./src/Flash_Driver_utils.o
+                0x00f9e204                WaitOperationFinish
+ .text.App_FlashErase
+                0x00f9e2b8       0xb2 ./src/Flash_Driver_utils.o
+                0x00f9e2b8                App_FlashErase
+ *fill*         0x00f9e36a        0x2 
+ .text.App_FlashProgram
+                0x00f9e36c       0x80 ./src/Flash_Driver_utils.o
+                0x00f9e36c                App_FlashProgram
+ .text.App_BlankCheck
+                0x00f9e3ec       0x78 ./src/Flash_Driver_utils.o
+                0x00f9e3ec                App_BlankCheck
+ .text.App_ProgramVerify
+                0x00f9e464       0x8a ./src/Flash_Driver_utils.o
+                0x00f9e464                App_ProgramVerify
+ *fill*         0x00f9e4ee        0x2 
+ .text.ErrorTrap
+                0x00f9e4f0       0x12 ./src/Flash_Driver_utils.o
+                0x00f9e4f0                ErrorTrap
+ *fill*         0x00f9e502        0x2 
+ .text.EER_exception_handler
+                0x00f9e504       0x46 ./src/Flash_Driver_utils.o
+                0x00f9e504                EER_exception_handler
+ *fill*         0x00f9e54a        0x2 
+ .text.DisableFlashControllerCache
+                0x00f9e54c       0x4a ./src/Flash_Driver_utils.o
+                0x00f9e54c                DisableFlashControllerCache
+ *(.init)
+ *fill*         0x00f9e596        0x2 
+ .init          0x00f9e598        0xa d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+                0x00f9e598                __init
+ .init          0x00f9e5a2        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .init          0x00f9e5a6        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .init          0x00f9e5aa        0xa d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ *(.fini)
+ .fini          0x00f9e5b4        0xa d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+                0x00f9e5b4                __fini
+ .fini          0x00f9e5be        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .fini          0x00f9e5c2        0xa d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+                0x00f9e5d0                . = ALIGN (0x10)
+ *fill*         0x00f9e5cc        0x4 
+
+.glink          0x00f9e5d0        0x0
+ .glink         0x00f9e5d0        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+
+.ctors          0x00f9e5d0        0x8
+                0x00f9e5d0                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ .ctors         0x00f9e5d0        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ .ctors         0x00f9e5d4        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .ctors         0x00f9e5d4        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00f9e5d4        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+                0x00f9e5d8                __CTOR_END__ = .
+
+.dtors          0x00f9e5d8        0x8
+                0x00f9e5d8                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ .dtors         0x00f9e5d8        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ .dtors         0x00f9e5dc        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .dtors         0x00f9e5dc        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00f9e5dc        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+                0x00f9e5e0                __DTOR_END__ = .
+
+.preinit_array  0x00f9e5e0        0x0
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00f9e5e0        0x0
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                [!provide]                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00f9e5e0        0x0
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                [!provide]                PROVIDE (__fini_array_end, .)
+
+.rodata         0x00f9e5e0     0x1100
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.SetLock_C
+                0x00f9e5e0      0x144 ./Flash_Driver/c-array_driver/SetLock.o
+                0x00f9e5e0                SetLock_C
+ .rodata.ProgramVerify_C
+                0x00f9e724       0xb8 ./Flash_Driver/c-array_driver/ProgramVerify.o
+                0x00f9e724                ProgramVerify_C
+ .rodata.GetLock_C
+                0x00f9e7dc      0x15c ./Flash_Driver/c-array_driver/GetLock.o
+                0x00f9e7dc                GetLock_C
+ .rodata.FlashProgram_C
+                0x00f9e938      0x26c ./Flash_Driver/c-array_driver/FlashProgram.o
+                0x00f9e938                FlashProgram_C
+ .rodata.FlashInit_C
+                0x00f9eba4       0xf0 ./Flash_Driver/c-array_driver/FlashInit.o
+                0x00f9eba4                FlashInit_C
+ .rodata.FlashExpressProgram_C
+                0x00f9ec94      0x2b4 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+                0x00f9ec94                FlashExpressProgram_C
+ .rodata.FlashErase_C
+                0x00f9ef48      0x1f8 ./Flash_Driver/c-array_driver/FlashErase.o
+                0x00f9ef48                FlashErase_C
+ .rodata.FlashCheckStatus_C
+                0x00f9f140      0x3c8 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+                0x00f9f140                FlashCheckStatus_C
+ .rodata.CheckSum_C
+                0x00f9f508       0xa0 ./Flash_Driver/c-array_driver/CheckSum.o
+                0x00f9f508                CheckSum_C
+ .rodata.BlankCheck_C
+                0x00f9f5a8       0x98 ./Flash_Driver/c-array_driver/BlankCheck.o
+                0x00f9f5a8                BlankCheck_C
+ .rodata.BLOCK_START_ADDRS
+                0x00f9f640       0x50 ./src/block_mpc574xP.o
+                0x00f9f640                BLOCK_START_ADDRS
+ .rodata.BLOCK_END_ADDRS
+                0x00f9f690       0x50 ./src/block_mpc574xP.o
+                0x00f9f690                BLOCK_END_ADDRS
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x00f9f6e0        0x8
+ *(.eh_frame)
+ .eh_frame      0x00f9f6e0        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+                0x00f9f6e0                __EH_FRAME_BEGIN__
+ .eh_frame      0x00f9f6e0        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .eh_frame      0x00f9f6e0        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .eh_frame      0x00f9f6e0        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .eh_frame      0x00f9f6e4        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+                0x00f9f6e4                __EH_FRAME_END__
+
+.data           0x40000000       0x44 load address 0x00f9f6e8
+ *(.data)
+ .data          0x40000000        0x4 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+ *(.data.*)
+ .data.ssdConfig
+                0x40000004       0x40 ./src/load.o
+                0x40000004                ssdConfig
+
+.jcr            0x40000044        0x0 load address 0x00f9f72c
+ .jcr           0x40000044        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+
+.tm_clone_table
+                0x40000044        0x0 load address 0x00f9f72c
+ .tm_clone_table
+                0x40000044        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .tm_clone_table
+                0x40000044        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+
+.got2           0x40000044       0x1c load address 0x00f9f72c
+ .got2          0x40000044       0x1c d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+
+.sdata2         0x40000060        0x0 load address 0x00f9f748
+ *(.sdata2)
+ .sdata2        0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .sdata2        0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *(.sdata2.*)
+
+.sbss2          0x40000060        0x0 load address 0x00f9f748
+ *(.sbss2)
+ .sbss2         0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+ *(.sbss2.*)
+
+.rela.dyn       0x40000060        0x0 load address 0x00f9f748
+ .rela.iplt     0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text     0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.main
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.RcvDtProc
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.StatusAck
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.SrcdProg_PFlash
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.Flash_Init
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.erase_flash_except_bootloader
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.intc_vector_table
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.FlexCAN0_BUF47_ISR
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.FlexCAN1_BUF47_ISR
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.FlexCAN1_BUF1215_ISR
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.FlexCAN_api_test
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.User_App
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.WaitOperationFinish
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.SyncProgram
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.text.TurnOnMCR_RWE
+                0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .rela.got2     0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+
+.sdata          0x40000060        0x8 load address 0x00f9f748
+ *(.sdata)
+ .sdata         0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+                0x40000060                __SDATA_START__
+ .sdata         0x40000060        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+                0x40008060                _SDA_BASE_
+ *(.sdata.*)
+ .sdata.SKIP_BLOCK_IDX
+                0x40000060        0x8 ./src/block_mpc574xP.o
+                0x40000060                SKIP_BLOCK_IDX
+
+.bss            0x40000068     0x12d0 load address 0x00f9f750
+                0x40000068                __BSS_START = .
+ *(.sbss)
+ .sbss          0x40000068        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .sbss          0x40000068        0x2 ./src/main.o
+                0x40000068                pSln
+                0x40000069                STATE
+ *fill*         0x4000006a        0x2 
+ .sbss          0x4000006c       0x54 ./src/load.o
+                0x4000006c                dest
+                0x40000070                pflash_pfcr0
+                0x40000074                blkLockState
+                0x40000078                lowBlockSelect
+                0x4000007c                sum
+                0x40000080                temp
+                0x40000084                failedData
+                0x40000088                midBlockSelect
+                0x4000008c                pflash_pfcr2
+                0x40000090                returnCode
+                0x40000094                source
+                0x40000098                highBlockSelect
+                0x4000009c                skipFlag
+                0x400000a0                failedSource
+                0x400000a4                size
+                0x400000a8                pflash_pfcr1
+                0x400000ac                demoResult
+                0x400000b0                pflash_pfcr3
+                0x400000b4                n256KBlockSelect
+                0x400000bc                failedAddress
+ .sbss          0x400000c0        0x4 ./src/Flash_Driver_utils.o
+                0x400000c0                g_usrCnt
+ .sbss          0x400000c4        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+                0x400000c4                __SBSS_END__
+ *(.sbss.*)
+ .sbss.CAN0_BufferReceive_Flag
+                0x400000c4        0x1 ./src/FlexCAN_api.o
+                0x400000c4                CAN0_BufferReceive_Flag
+ .sbss.CAN1_BufferReceive_Flag
+                0x400000c5        0x1 ./src/FlexCAN_api.o
+                0x400000c5                CAN1_BufferReceive_Flag
+ *(.bss)
+ *fill*         0x400000c6        0x2 
+ .bss           0x400000c8       0x20 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ *(.bss.*)
+ .bss.Counter.13994
+                0x400000e8        0x4 ./src/MPC574xP_SystemInit.o
+ *(COMMON)
+ COMMON         0x400000ec       0x80 ./src/main.o
+                0x400000ec                Sline
+ COMMON         0x4000016c     0x116c ./src/load.o
+                0x4000016c                memRegionInfo
+                0x400001b8                bcCtxData
+                0x400001e0                pvCtxData
+                0x40000208                buffer
+                0x40001208                srcd
+                0x40001238                csCtxData
+                0x40001260                dummyCtxData
+                0x40001288                pgmCtxData
+                0x400012b0                exPgmCtxData
+ COMMON         0x400012d8       0x60 ./src/FlexCAN_api.o
+                0x400012d8                CAN_TxMsg
+                0x400012f8                CAN_RxMsg
+                0x40001318                CAN_RxFeedbackMsg
+                0x40001338                __BSS_END = .
+
+.iplt           0x40001340        0x0 load address 0x00f9f750
+ .iplt          0x40001340        0x0 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+
+.stack          0x50800000     0x1004
+                0x50800000                __HEAP = .
+                [!provide]                PROVIDE (_end, .)
+                [!provide]                PROVIDE (end, .)
+                0x50800000                . = (. + __HEAP_SIZE)
+                0x50800000                __HEAP_END = .
+                0x50800000                _stack_end = .
+                0x50801000                . = (. + __STACK_SIZE)
+ *fill*         0x50800000     0x1000 
+                0x50801000                _stack_addr = .
+                0x50801000                __SP_INIT = .
+                0x50801004                . = (. + 0x4)
+ *fill*         0x50801000        0x4 
+                0x40000000                __DATA_SRAM_ADDR = ADDR (.data)
+                0x40000060                __SDATA_SRAM_ADDR = ADDR (.sdata)
+                0x00000044                __DATA_SIZE = SIZEOF (.data)
+                0x00000008                __SDATA_SIZE = SIZEOF (.sdata)
+                0x00f9f6e8                __DATA_ROM_ADDR = LOADADDR (.data)
+                0x00f9f748                __SDATA_ROM_ADDR = LOADADDR (.sdata)
+                0x00060000                __SRAM_SIZE = SRAM_SIZE
+                0x40000000                __SRAM_BASE_ADDR = SRAM_BASE_ADDR
+                0x00010000                __LOCAL_DMEM_SIZE = LOCALDMEM_SIZE
+                0x50800000                __LOCAL_DMEM_BASE_ADDR = LOCALDMEM_BASE_ADDR
+                0x000012d0                __BSS_SIZE = (__BSS_END - __BSS_START)
+OUTPUT(MPC5744P_CAN_Bootloader.elf elf32-powerpc)
+
+.PPC.EMB.apuinfo
+                0x00000000       0x18
+ .PPC.EMB.apuinfo
+                0x00000000       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrti.o
+ .PPC.EMB.apuinfo
+                0x00000018       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtbegin.o
+ .PPC.EMB.apuinfo
+                0x00000030       0x18 ./Project_Settings/Startup_Code/startup.o
+ .PPC.EMB.apuinfo
+                0x00000048       0x18 ./src/main.o
+ .PPC.EMB.apuinfo
+                0x00000060       0x18 ./src/load.o
+ .PPC.EMB.apuinfo
+                0x00000078       0x18 ./src/intc_sw_handlers.o
+ .PPC.EMB.apuinfo
+                0x00000090       0x18 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .PPC.EMB.apuinfo
+                0x000000a8       0x18 ./src/flexcan_init.o
+ .PPC.EMB.apuinfo
+                0x000000c0       0x18 ./src/block_mpc574xP.o
+ .PPC.EMB.apuinfo
+                0x000000d8       0x18 ./src/Vector.o
+ .PPC.EMB.apuinfo
+                0x000000f0       0x18 ./src/MPC57xx__Interrupt_Init.o
+ .PPC.EMB.apuinfo
+                0x00000108       0x18 ./src/MPC574xP_SystemInit.o
+ .PPC.EMB.apuinfo
+                0x00000120       0x18 ./src/IVORx_vle.o
+ .PPC.EMB.apuinfo
+                0x00000138       0x18 ./src/FlexCAN_api.o
+ .PPC.EMB.apuinfo
+                0x00000150       0x18 ./src/Flash_Driver_utils.o
+ .PPC.EMB.apuinfo
+                0x00000168       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp\libgcc.a(eabivle.o)
+ .PPC.EMB.apuinfo
+                0x00000180       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/crtend.o
+ .PPC.EMB.apuinfo
+                0x00000198       0x18 d:/nxp/s32ds_power_v1.2/cross_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/e200z4/fp/ecrtn.o
+
+.comment        0x00000000       0x8e
+ .comment       0x00000000       0x8e ./Flash_Driver/c-array_driver/SetLock.o
+                                 0x8f (size before relaxing)
+ .comment       0x0000008e       0x8f ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .comment       0x0000008e       0x8f ./Flash_Driver/c-array_driver/GetLock.o
+ .comment       0x0000008e       0x8f ./Flash_Driver/c-array_driver/FlashProgram.o
+ .comment       0x0000008e       0x8f ./Flash_Driver/c-array_driver/FlashInit.o
+ .comment       0x0000008e       0x8f ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .comment       0x0000008e       0x8f ./Flash_Driver/c-array_driver/FlashErase.o
+ .comment       0x0000008e       0x8f ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .comment       0x0000008e       0x8f ./Flash_Driver/c-array_driver/CheckSum.o
+ .comment       0x0000008e       0x8f ./Flash_Driver/c-array_driver/BlankCheck.o
+ .comment       0x0000008e       0x8f ./src/main.o
+ .comment       0x0000008e       0x8f ./src/load.o
+ .comment       0x0000008e       0x8f ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .comment       0x0000008e       0x8f ./src/flexcan_init.o
+ .comment       0x0000008e       0x8f ./src/flashrchw.o
+ .comment       0x0000008e       0x8f ./src/block_mpc574xP.o
+ .comment       0x0000008e       0x8f ./src/Vector.o
+ .comment       0x0000008e       0x8f ./src/MPC57xx__Interrupt_Init.o
+ .comment       0x0000008e       0x8f ./src/MPC574xP_SystemInit.o
+ .comment       0x0000008e       0x8f ./src/FlexCAN_api.o
+ .comment       0x0000008e       0x8f ./src/Flash_Driver_utils.o
+
+.debug_info     0x00000000     0xde36
+ .debug_info    0x00000000       0x56 ./Flash_Driver/c-array_driver/SetLock.o
+ .debug_info    0x00000056       0x56 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .debug_info    0x000000ac       0x56 ./Flash_Driver/c-array_driver/GetLock.o
+ .debug_info    0x00000102       0x56 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .debug_info    0x00000158       0x56 ./Flash_Driver/c-array_driver/FlashInit.o
+ .debug_info    0x000001ae       0x56 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .debug_info    0x00000204       0x56 ./Flash_Driver/c-array_driver/FlashErase.o
+ .debug_info    0x0000025a       0x56 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .debug_info    0x000002b0       0x56 ./Flash_Driver/c-array_driver/CheckSum.o
+ .debug_info    0x00000306       0x56 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .debug_info    0x0000035c       0x8f ./Project_Settings/Startup_Code/startup.o
+ .debug_info    0x000003eb     0x16ae ./src/main.o
+ .debug_info    0x00001a99      0xf00 ./src/load.o
+ .debug_info    0x00002999       0x7e ./src/intc_sw_handlers.o
+ .debug_info    0x00002a17       0xb4 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_info    0x00002acb     0x1401 ./src/flexcan_init.o
+ .debug_info    0x00003ecc       0x93 ./src/flashrchw.o
+ .debug_info    0x00003f5f      0x203 ./src/block_mpc574xP.o
+ .debug_info    0x00004162      0x59e ./src/Vector.o
+ .debug_info    0x00004700      0x5eb ./src/MPC57xx__Interrupt_Init.o
+ .debug_info    0x00004ceb     0x5442 ./src/MPC574xP_SystemInit.o
+ .debug_info    0x0000a12d       0x70 ./src/IVORx_vle.o
+ .debug_info    0x0000a19d     0x2fb7 ./src/FlexCAN_api.o
+ .debug_info    0x0000d154      0xce2 ./src/Flash_Driver_utils.o
+
+.debug_abbrev   0x00000000     0x11e0
+ .debug_abbrev  0x00000000       0x48 ./Flash_Driver/c-array_driver/SetLock.o
+ .debug_abbrev  0x00000048       0x48 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .debug_abbrev  0x00000090       0x48 ./Flash_Driver/c-array_driver/GetLock.o
+ .debug_abbrev  0x000000d8       0x48 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .debug_abbrev  0x00000120       0x48 ./Flash_Driver/c-array_driver/FlashInit.o
+ .debug_abbrev  0x00000168       0x48 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .debug_abbrev  0x000001b0       0x48 ./Flash_Driver/c-array_driver/FlashErase.o
+ .debug_abbrev  0x000001f8       0x48 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .debug_abbrev  0x00000240       0x48 ./Flash_Driver/c-array_driver/CheckSum.o
+ .debug_abbrev  0x00000288       0x48 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .debug_abbrev  0x000002d0       0x14 ./Project_Settings/Startup_Code/startup.o
+ .debug_abbrev  0x000002e4      0x18f ./src/main.o
+ .debug_abbrev  0x00000473      0x23f ./src/load.o
+ .debug_abbrev  0x000006b2       0x14 ./src/intc_sw_handlers.o
+ .debug_abbrev  0x000006c6       0x7c ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_abbrev  0x00000742      0x181 ./src/flexcan_init.o
+ .debug_abbrev  0x000008c3       0x4e ./src/flashrchw.o
+ .debug_abbrev  0x00000911       0xb6 ./src/block_mpc574xP.o
+ .debug_abbrev  0x000009c7      0x131 ./src/Vector.o
+ .debug_abbrev  0x00000af8      0x17d ./src/MPC57xx__Interrupt_Init.o
+ .debug_abbrev  0x00000c75      0x155 ./src/MPC574xP_SystemInit.o
+ .debug_abbrev  0x00000dca       0x14 ./src/IVORx_vle.o
+ .debug_abbrev  0x00000dde      0x247 ./src/FlexCAN_api.o
+ .debug_abbrev  0x00001025      0x1bb ./src/Flash_Driver_utils.o
+
+.debug_aranges  0x00000000      0x488
+ .debug_aranges
+                0x00000000       0x18 ./Flash_Driver/c-array_driver/SetLock.o
+ .debug_aranges
+                0x00000018       0x18 ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .debug_aranges
+                0x00000030       0x18 ./Flash_Driver/c-array_driver/GetLock.o
+ .debug_aranges
+                0x00000048       0x18 ./Flash_Driver/c-array_driver/FlashProgram.o
+ .debug_aranges
+                0x00000060       0x18 ./Flash_Driver/c-array_driver/FlashInit.o
+ .debug_aranges
+                0x00000078       0x18 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .debug_aranges
+                0x00000090       0x18 ./Flash_Driver/c-array_driver/FlashErase.o
+ .debug_aranges
+                0x000000a8       0x18 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .debug_aranges
+                0x000000c0       0x18 ./Flash_Driver/c-array_driver/CheckSum.o
+ .debug_aranges
+                0x000000d8       0x18 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .debug_aranges
+                0x000000f0       0x20 ./Project_Settings/Startup_Code/startup.o
+ .debug_aranges
+                0x00000110       0x28 ./src/main.o
+ .debug_aranges
+                0x00000138       0x88 ./src/load.o
+ .debug_aranges
+                0x000001c0       0x20 ./src/intc_sw_handlers.o
+ .debug_aranges
+                0x000001e0       0x20 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_aranges
+                0x00000200       0x40 ./src/flexcan_init.o
+ .debug_aranges
+                0x00000240       0x18 ./src/flashrchw.o
+ .debug_aranges
+                0x00000258       0x20 ./src/block_mpc574xP.o
+ .debug_aranges
+                0x00000278       0x20 ./src/Vector.o
+ .debug_aranges
+                0x00000298       0x38 ./src/MPC57xx__Interrupt_Init.o
+ .debug_aranges
+                0x000002d0       0x40 ./src/MPC574xP_SystemInit.o
+ .debug_aranges
+                0x00000310       0x20 ./src/IVORx_vle.o
+ .debug_aranges
+                0x00000330       0xb8 ./src/FlexCAN_api.o
+ .debug_aranges
+                0x000003e8       0xa0 ./src/Flash_Driver_utils.o
+
+.debug_macro    0x00000000     0xdc47
+ .debug_macro   0x00000000       0x2c ./Flash_Driver/c-array_driver/SetLock.o
+ .debug_macro   0x0000002c       0x2c ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .debug_macro   0x00000058       0x2c ./Flash_Driver/c-array_driver/GetLock.o
+ .debug_macro   0x00000084       0x2c ./Flash_Driver/c-array_driver/FlashProgram.o
+ .debug_macro   0x000000b0       0x2c ./Flash_Driver/c-array_driver/FlashInit.o
+ .debug_macro   0x000000dc       0x2c ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .debug_macro   0x00000108       0x2c ./Flash_Driver/c-array_driver/FlashErase.o
+ .debug_macro   0x00000134       0x2c ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .debug_macro   0x00000160       0x2c ./Flash_Driver/c-array_driver/CheckSum.o
+ .debug_macro   0x0000018c       0x2c ./Flash_Driver/c-array_driver/BlankCheck.o
+ .debug_macro   0x000001b8      0x157 ./src/main.o
+ .debug_macro   0x0000030f       0x64 ./src/main.o
+ .debug_macro   0x00000373      0x1a3 ./src/main.o
+ .debug_macro   0x00000516      0x133 ./src/main.o
+ .debug_macro   0x00000649       0x9d ./src/main.o
+ .debug_macro   0x000006e6       0x10 ./src/main.o
+ .debug_macro   0x000006f6      0x15b ./src/main.o
+ .debug_macro   0x00000851       0x28 ./src/main.o
+ .debug_macro   0x00000879       0x58 ./src/main.o
+ .debug_macro   0x000008d1     0xb50a ./src/main.o
+ .debug_macro   0x0000bddb      0xb7e ./src/main.o
+ .debug_macro   0x0000c959      0x1ad ./src/main.o
+ .debug_macro   0x0000cb06       0x10 ./src/main.o
+ .debug_macro   0x0000cb16       0x16 ./src/main.o
+ .debug_macro   0x0000cb2c      0x662 ./src/main.o
+ .debug_macro   0x0000d18e       0x28 ./src/main.o
+ .debug_macro   0x0000d1b6       0x10 ./src/main.o
+ .debug_macro   0x0000d1c6       0xac ./src/main.o
+ .debug_macro   0x0000d272       0x82 ./src/main.o
+ .debug_macro   0x0000d2f4       0x70 ./src/main.o
+ .debug_macro   0x0000d364       0x8e ./src/main.o
+ .debug_macro   0x0000d3f2      0x140 ./src/load.o
+ .debug_macro   0x0000d532       0x2e ./src/load.o
+ .debug_macro   0x0000d560       0xc9 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_macro   0x0000d629       0xd9 ./src/flexcan_init.o
+ .debug_macro   0x0000d702       0xd1 ./src/flashrchw.o
+ .debug_macro   0x0000d7d3       0x69 ./src/block_mpc574xP.o
+ .debug_macro   0x0000d83c       0xcb ./src/Vector.o
+ .debug_macro   0x0000d907       0xd1 ./src/MPC57xx__Interrupt_Init.o
+ .debug_macro   0x0000d9d8       0xcc ./src/MPC574xP_SystemInit.o
+ .debug_macro   0x0000daa4      0x12c ./src/FlexCAN_api.o
+ .debug_macro   0x0000dbd0       0x77 ./src/Flash_Driver_utils.o
+
+.debug_line     0x00000000     0x29f1
+ .debug_line    0x00000000       0xb5 ./Flash_Driver/c-array_driver/SetLock.o
+ .debug_line    0x000000b5       0xbb ./Flash_Driver/c-array_driver/ProgramVerify.o
+ .debug_line    0x00000170       0xb5 ./Flash_Driver/c-array_driver/GetLock.o
+ .debug_line    0x00000225       0xba ./Flash_Driver/c-array_driver/FlashProgram.o
+ .debug_line    0x000002df       0xb7 ./Flash_Driver/c-array_driver/FlashInit.o
+ .debug_line    0x00000396       0xc1 ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+ .debug_line    0x00000457       0xb8 ./Flash_Driver/c-array_driver/FlashErase.o
+ .debug_line    0x0000050f       0xbe ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+ .debug_line    0x000005cd       0xb6 ./Flash_Driver/c-array_driver/CheckSum.o
+ .debug_line    0x00000683       0xb8 ./Flash_Driver/c-array_driver/BlankCheck.o
+ .debug_line    0x0000073b       0xdb ./Project_Settings/Startup_Code/startup.o
+ .debug_line    0x00000816      0x397 ./src/main.o
+ .debug_line    0x00000bad      0x542 ./src/load.o
+ .debug_line    0x000010ef       0x5d ./src/intc_sw_handlers.o
+ .debug_line    0x0000114c      0x213 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_line    0x0000135f      0x348 ./src/flexcan_init.o
+ .debug_line    0x000016a7      0x1b7 ./src/flashrchw.o
+ .debug_line    0x0000185e      0x161 ./src/block_mpc574xP.o
+ .debug_line    0x000019bf      0x1f8 ./src/Vector.o
+ .debug_line    0x00001bb7      0x247 ./src/MPC57xx__Interrupt_Init.o
+ .debug_line    0x00001dfe      0x2a1 ./src/MPC574xP_SystemInit.o
+ .debug_line    0x0000209f       0xbe ./src/IVORx_vle.o
+ .debug_line    0x0000215d      0x566 ./src/FlexCAN_api.o
+ .debug_line    0x000026c3      0x32e ./src/Flash_Driver_utils.o
+
+.debug_str      0x00000000    0x3f8d2
+ .debug_str     0x00000000     0x2376 ./Flash_Driver/c-array_driver/SetLock.o
+                               0x238e (size before relaxing)
+ .debug_str     0x00002376       0x3f ./Flash_Driver/c-array_driver/ProgramVerify.o
+                               0x239a (size before relaxing)
+ .debug_str     0x000023b5       0x33 ./Flash_Driver/c-array_driver/GetLock.o
+                               0x238e (size before relaxing)
+ .debug_str     0x000023e8       0x3d ./Flash_Driver/c-array_driver/FlashProgram.o
+                               0x2398 (size before relaxing)
+ .debug_str     0x00002425       0x37 ./Flash_Driver/c-array_driver/FlashInit.o
+                               0x2392 (size before relaxing)
+ .debug_str     0x0000245c       0x4b ./Flash_Driver/c-array_driver/FlashExpressProgram.o
+                               0x23a6 (size before relaxing)
+ .debug_str     0x000024a7       0x39 ./Flash_Driver/c-array_driver/FlashErase.o
+                               0x2394 (size before relaxing)
+ .debug_str     0x000024e0       0x45 ./Flash_Driver/c-array_driver/FlashCheckStatus.o
+                               0x23a0 (size before relaxing)
+ .debug_str     0x00002525       0x35 ./Flash_Driver/c-array_driver/CheckSum.o
+                               0x2390 (size before relaxing)
+ .debug_str     0x0000255a       0x39 ./Flash_Driver/c-array_driver/BlankCheck.o
+                               0x2394 (size before relaxing)
+ .debug_str     0x00002593    0x39ce3 ./src/main.o
+                              0x3c0e7 (size before relaxing)
+ .debug_str     0x0003c276      0x870 ./src/load.o
+                              0x3af9e (size before relaxing)
+ .debug_str     0x0003cae6       0x44 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+                              0x37a9e (size before relaxing)
+ .debug_str     0x0003cb2a      0x818 ./src/flexcan_init.o
+                              0x3845c (size before relaxing)
+ .debug_str     0x0003d342       0xe1 ./src/flashrchw.o
+                               0x3b05 (size before relaxing)
+ .debug_str     0x0003d423       0x39 ./src/block_mpc574xP.o
+                               0x4dba (size before relaxing)
+ .debug_str     0x0003d45c      0x2ec ./src/Vector.o
+                              0x37698 (size before relaxing)
+ .debug_str     0x0003d748       0xb9 ./src/MPC57xx__Interrupt_Init.o
+                              0x376cd (size before relaxing)
+ .debug_str     0x0003d801     0x1cdc ./src/MPC574xP_SystemInit.o
+                              0x3abae (size before relaxing)
+ .debug_str     0x0003f4dd      0x1d1 ./src/FlexCAN_api.o
+                              0x3ccd2 (size before relaxing)
+ .debug_str     0x0003f6ae      0x224 ./src/Flash_Driver_utils.o
+                               0x537f (size before relaxing)
+
+.debug_ranges   0x00000000      0x280
+ .debug_ranges  0x00000000       0x18 ./src/main.o
+ .debug_ranges  0x00000018       0x78 ./src/load.o
+ .debug_ranges  0x00000090       0x10 ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_ranges  0x000000a0       0x30 ./src/flexcan_init.o
+ .debug_ranges  0x000000d0       0x10 ./src/block_mpc574xP.o
+ .debug_ranges  0x000000e0       0x10 ./src/Vector.o
+ .debug_ranges  0x000000f0       0x28 ./src/MPC57xx__Interrupt_Init.o
+ .debug_ranges  0x00000118       0x30 ./src/MPC574xP_SystemInit.o
+ .debug_ranges  0x00000148       0xa8 ./src/FlexCAN_api.o
+ .debug_ranges  0x000001f0       0x90 ./src/Flash_Driver_utils.o
+
+.debug_frame    0x00000000      0xab4
+ .debug_frame   0x00000000       0x48 ./src/main.o
+ .debug_frame   0x00000048      0x22c ./src/load.o
+ .debug_frame   0x00000274       0x2c ./src/intc_SW_mode_isr_vectors_MPC5744P.o
+ .debug_frame   0x000002a0       0xcc ./src/flexcan_init.o
+ .debug_frame   0x0000036c       0x34 ./src/block_mpc574xP.o
+ .debug_frame   0x000003a0       0x34 ./src/Vector.o
+ .debug_frame   0x000003d4       0xa0 ./src/MPC57xx__Interrupt_Init.o
+ .debug_frame   0x00000474       0xc4 ./src/MPC574xP_SystemInit.o
+ .debug_frame   0x00000538      0x2f8 ./src/FlexCAN_api.o
+ .debug_frame   0x00000830      0x284 ./src/Flash_Driver_utils.o

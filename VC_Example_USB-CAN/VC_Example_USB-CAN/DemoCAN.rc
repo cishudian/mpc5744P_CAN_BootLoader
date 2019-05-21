@@ -1,0 +1,308 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DemoCAN.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 DemoCAN"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DemoCAN 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DEMOCAN_DIALOG DIALOGEX 0, 0, 453, 404
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DemoCAN----GY8507 USB-CAN Adapter"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "Transmit message",IDC_STATIC,7,22,439,50
+    LTEXT           "Frame:",IDC_STATIC,15,36,28,8
+    COMBOBOX        IDC_COMBO_SENDFRAMETYPE,44,34,45,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SENDFRAMEFORMAT,119,34,47,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ID:",IDC_STATIC,181,36,13,8
+    EDITTEXT        IDC_EDIT_SEND_ID,205,34,54,14,ES_AUTOHSCROLL
+    LTEXT           "Data:",IDC_STATIC,16,57,21,8
+    EDITTEXT        IDC_EDIT_SEND_DATA,47,54,120,14,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    PUSHBUTTON      "Send",IDC_BUTTON_SEND,182,53,50,14,WS_DISABLED
+    GROUPBOX        "",IDC_STATIC,7,72,239,22
+    LTEXT           "ID Format:",IDC_STATIC,12,82,41,8
+    CONTROL         "SJA1000",IDC_RADIO_ID_FORMAT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,57,82,44,10
+    CONTROL         "Direct ID",IDC_RADIO_ID_FORMAT2,"Button",
+                    BS_AUTORADIOBUTTON,111,82,52,10
+    CONTROL         "CAN receive",IDC_CHECK_CANRX_EN,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,183,81,60,10
+    PUSHBUTTON      "Clear",IDC_BUTTON_CLEAR,388,78,50,14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,97,439,279
+    LTEXT           "CAN Index:",IDC_STATIC,270,35,40,8
+    COMBOBOX        IDC_COMBO_CAN_INDEX,312,33,31,63,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Open device",IDC_BUTTON_OPEN_DEVICE,13,8,58,14
+    PUSHBUTTON      "Close device",IDC_BUTTON_CLOSE_DEVICE,75,8,57,14
+    LTEXT           "Type:",IDC_STATIC,96,36,21,8
+    LTEXT           "Baud Rate:",IDC_STATIC,254,82,44,8
+    COMBOBOX        IDC_COMBO_BAUDRATE,303,79,68,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Send File...",IDC_BUTTON_SENDFILE,268,52,57,14
+    CONTROL         "Progress1",IDC_SENDPROGRESS,"msctls_progress32",
+                    PBS_SMOOTH,341,53,95,11
+    PUSHBUTTON      "Cancel",IDC_BUTTON_SENDCANCEL,386,33,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DemoCAN Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DemoCAN\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DemoCAN.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "DemoCAN 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DEMOCAN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 446
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 397
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DEMOCAN_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_SENDFRAMETYPE, 0x403, 9, 0
+0x7453, 0x6e61, 0x6164, 0x6472, "\000" 
+    IDC_COMBO_SENDFRAMETYPE, 0x403, 9, 0
+0x7845, 0x6574, 0x646e, 0x6465, "\000" 
+    IDC_COMBO_SENDFRAMEFORMAT, 0x403, 6, 0
+0x6144, 0x6174, 0x0020, 
+    IDC_COMBO_SENDFRAMEFORMAT, 0x403, 7, 0
+0x6552, 0x6f6d, 0x6574, "\000" 
+    IDC_COMBO_CAN_INDEX, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_CAN_INDEX, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_BAUDRATE, 0x403, 6, 0
+0x4b35, 0x7062, 0x0073, 
+    IDC_COMBO_BAUDRATE, 0x403, 7, 0
+0x3031, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUDRATE, 0x403, 7, 0
+0x3032, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUDRATE, 0x403, 7, 0
+0x3034, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUDRATE, 0x403, 7, 0
+0x3035, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUDRATE, 0x403, 7, 0
+0x3038, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUDRATE, 0x403, 8, 0
+0x3031, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUDRATE, 0x403, 8, 0
+0x3231, 0x4b35, 0x7062, 0x0073, 
+    IDC_COMBO_BAUDRATE, 0x403, 8, 0
+0x3032, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUDRATE, 0x403, 8, 0
+0x3532, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUDRATE, 0x403, 8, 0
+0x3034, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUDRATE, 0x403, 8, 0
+0x3035, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUDRATE, 0x403, 8, 0
+0x3636, 0x4b36, 0x7062, 0x0073, 
+    IDC_COMBO_BAUDRATE, 0x403, 8, 0
+0x3038, 0x4b30, 0x7062, 0x0073, 
+    IDC_COMBO_BAUDRATE, 0x403, 9, 0
+0x3031, 0x3030, 0x624b, 0x7370, "\000" 
+    IDC_COMBO_BAUDRATE, 0x403, 12, 0
+0x6553, 0x666c, 0x6420, 0x6665, 0x6e69, 0x0065, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 DemoCAN(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\fsl_icon.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\DemoCAN.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

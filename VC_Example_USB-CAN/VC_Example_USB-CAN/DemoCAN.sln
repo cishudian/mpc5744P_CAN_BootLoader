@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "DemoCAN", "DemoCAN.dsp", "{FD668BDF-3886-4670-9C8D-D92BFA642708}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

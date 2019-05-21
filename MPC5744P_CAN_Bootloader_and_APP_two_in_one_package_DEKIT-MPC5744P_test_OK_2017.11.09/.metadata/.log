@@ -1,0 +1,211 @@
+!SESSION 2019-03-12 11:03:39.114 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.nxp.s32ds.e200.ide.product -product com.nxp.s32ds.e200.ide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.nxp.s32ds.e200.ide.product -data D:\mpc5744p-vc\MPC5744P_CAN_Bootloader_and_APP_two_in_one_package_DEKIT-MPC5744P_test_OK_2017.11.09 -product com.nxp.s32ds.e200.ide.product
+
+!ENTRY org.eclipse.ui 2 0 2019-03-12 11:03:40.480
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-12 11:03:40.480
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui 2 0 2019-03-12 11:03:40.731
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-12 11:03:40.731
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui.navigator 2 0 2019-03-12 11:03:45.306
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jdt.java.ui.javaContent
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-12 11:03:45.539
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\94041'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-12 11:04:11.973
+!MESSAGE Indexed 'MPC5744P_CAN_Bootloader' (33 sources, 25 headers) in 1.65 sec: 11,795 declarations; 12,238 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-12 13:58:47.961
+!MESSAGE Indexed 'MPC5744P_CAN_Bootloader_APP_LED_Toggle' (6 sources, 15 headers) in 0.732 sec: 10,827 declarations; 9,490 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-03-13 09:29:24.975 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.nxp.s32ds.e200.ide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.nxp.s32ds.e200.ide.product
+
+!ENTRY org.eclipse.ui 2 0 2019-03-13 09:29:31.270
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-13 09:29:31.270
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui 2 0 2019-03-13 09:29:31.534
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-13 09:29:31.534
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui.navigator 2 0 2019-03-13 09:29:40.256
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jdt.java.ui.javaContent
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-13 09:29:40.762
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\94041'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-03-13 09:30:04.633
+!MESSAGE Connection to http://www.nxp.com/lgfiles/updates/Eclipse/S32DS_POWER_2017.R1/updatesite/p2.index failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-04-02 14:40:02.406 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.nxp.s32ds.e200.ide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.nxp.s32ds.e200.ide.product
+
+!ENTRY org.eclipse.ui 2 0 2019-04-02 14:40:39.437
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-04-02 14:40:39.437
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui 2 0 2019-04-02 14:40:42.281
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-04-02 14:40:42.281
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui.navigator 2 0 2019-04-02 14:41:00.570
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jdt.java.ui.javaContent
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-02 14:41:00.963
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\94041'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-04-02 14:42:09.989
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to connect to repository http://www.pemicro.com/eclipse/updates/com.pemicro.debug.gdbjtag.pne.updatesite/compositeContent.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:73)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:98)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2019-04-02 14:42:10.013
+!MESSAGE Unable to connect to repository http://www.pemicro.com/eclipse/updates/com.pemicro.debug.gdbjtag.pne.updatesite/compositeContent.xml
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-04-02 14:43:23.191
+!MESSAGE No repository found at https://www.wolfssl.com.
+!SESSION 2019-04-08 19:16:52.619 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.nxp.s32ds.e200.ide.product -product com.nxp.s32ds.e200.ide.product -product com.nxp.s32ds.e200.ide.product -product com.nxp.s32ds.e200.ide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.nxp.s32ds.e200.ide.product -product com.nxp.s32ds.e200.ide.product -product com.nxp.s32ds.e200.ide.product -data D:\mpc5744p-vc\MPC5744P_CAN_Bootloader_and_APP_two_in_one_package_DEKIT-MPC5744P_test_OK_2017.11.09 -product com.nxp.s32ds.e200.ide.product
+
+!ENTRY org.eclipse.ui 2 0 2019-04-08 19:16:57.226
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-04-08 19:16:57.226
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui 2 0 2019-04-08 19:16:57.550
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-04-08 19:16:57.550
+!MESSAGE Commands should really have a category: plug-in='com.nxp.s32ds.mdt.ide.ui', id='com.nxp.s32ds.mdt.ide.ui.command.find.usages', categoryId='com.nxp.s32ds.mdt.ide.ui.commands'
+
+!ENTRY org.eclipse.ui.navigator 2 0 2019-04-08 19:17:03.185
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jdt.java.ui.javaContent
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-08 19:17:03.579
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\94041'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-04-08 19:18:27.153
+!MESSAGE No repository found at https://www.wolfssl.com.

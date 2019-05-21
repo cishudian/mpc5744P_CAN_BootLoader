@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_FILTER_LAUNCH_TYPES=true
+org.eclipse.debug.ui.PREF_FILTER_TYPE_LIST=org.eclipse.cdt.launch.attachLaunchType,org.eclipse.cdt.launch.postmortemLaunchType,org.eclipse.cdt.debug.core.localCoreBuildLaunchConfigType
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n

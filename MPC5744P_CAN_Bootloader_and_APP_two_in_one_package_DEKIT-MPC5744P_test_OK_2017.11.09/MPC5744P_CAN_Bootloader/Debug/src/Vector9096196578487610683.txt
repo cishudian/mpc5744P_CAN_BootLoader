@@ -1,0 +1,365 @@
+powerpc-eabivle-objdump -d -S -x "src\\Vector.o" 
+
+src\Vector.o:     file format elf32-powerpc
+src\Vector.o
+architecture: powerpc:vle, flags 0x00000011:
+HAS_RELOC, HAS_SYMS
+start address 0x00000000
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .group        00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  1 .group        00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  2 .group        00000008  00000000  00000000  00000044  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  3 .group        00000008  00000000  00000000  0000004c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  4 .group        00000008  00000000  00000000  00000054  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  5 .group        00000008  00000000  00000000  0000005c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  6 .group        00000008  00000000  00000000  00000064  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  7 .group        00000008  00000000  00000000  0000006c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  8 .group        00000008  00000000  00000000  00000074  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  9 .group        00000008  00000000  00000000  0000007c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 10 .group        00000008  00000000  00000000  00000084  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 11 .group        00000008  00000000  00000000  0000008c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 12 .group        00000008  00000000  00000000  00000094  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 13 .group        00000008  00000000  00000000  0000009c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 14 .text         00000000  00000000  00000000  000000a4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE, VLE
+ 15 .data         00000000  00000000  00000000  000000a4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 16 .bss          00000000  00000000  00000000  000000a4  2**0
+                  ALLOC
+ 17 .core_exceptions_table 00000100  00000000  00000000  000000b0  2**4
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE, VLE
+ 18 .text.INTC_INTCInterruptHandler 00000038  00000000  00000000  000001b0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE, VLE
+ 19 .debug_info   0000059e  00000000  00000000  000001e8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_abbrev 00000131  00000000  00000000  00000786  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .debug_aranges 00000020  00000000  00000000  000008b7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_ranges 00000010  00000000  00000000  000008d7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_macro  000000cb  00000000  00000000  000008e7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_macro  0000061c  00000000  00000000  000009b2  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_macro  00000052  00000000  00000000  00000fce  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_macro  000000a0  00000000  00000000  00001020  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_macro  00000016  00000000  00000000  000010c0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_macro  0000002e  00000000  00000000  000010d6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_macro  00000064  00000000  00000000  00001104  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_macro  000001a3  00000000  00000000  00001168  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_macro  00000133  00000000  00000000  0000130b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_macro  0000009d  00000000  00000000  0000143e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_macro  00000010  00000000  00000000  000014db  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_macro  0000015b  00000000  00000000  000014eb  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_macro  00000028  00000000  00000000  00001646  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_macro  00000058  00000000  00000000  0000166e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_macro  0000b50a  00000000  00000000  000016c6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_line   0000020e  00000000  00000000  0000cbd0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_str    00037698  00000000  00000000  0000cdde  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 40 .comment      0000008f  00000000  00000000  00044476  2**0
+                  CONTENTS, READONLY
+ 41 .PPC.EMB.apuinfo 00000018  00000000  00000000  00044505  2**0
+                  CONTENTS, READONLY
+ 42 .debug_frame  00000034  00000000  00000000  00044520  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 Vector.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .core_exceptions_table	00000000 .core_exceptions_table
+00000010 l       .core_exceptions_table	00000000 IVOR1_Vector
+00000020 l       .core_exceptions_table	00000000 IVOR2_Vector
+00000000 l    d  .text.INTC_INTCInterruptHandler	00000000 .text.INTC_INTCInterruptHandler
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l       .group	00000000 wm4.0.0127509615e603531c663282594fce3c
+00000000 l       .group	00000000 wm4.lib_c99.prefix.8.3580c292f50811c682d980dc4180498e
+00000000 l       .group	00000000 wm4.common.prefix.16.d7bf937cdf46fd76dde96b376e3b328a
+00000000 l       .group	00000000 wm4.ewl_c_version.h.9.0bcb57d6a3f89baae1f9b121de2772f5
+00000000 l       .group	00000000 wm4.compiler_api.h.8.e92a4cad49af46355e7f6b7212feddaa
+00000000 l       .group	00000000 wm4.os_enum.h.9.f9446d6af68b3fa72a37d4d924d3b347
+00000000 l       .group	00000000 wm4.ansi_prefix.PA_EABI.bare.h.13.bc4260de00d13d22e2cf5282b051804c
+00000000 l       .group	00000000 wm4.ansi_parms.h.64.1ef44042fa7eb65a5fea92aff5b4a219
+00000000 l       .group	00000000 wm4.limits_api.h.9.bc6daa20b3abae2bba6c512044e73b43
+00000000 l       .group	00000000 wm4.ewl_lib_ext1.h.14.f9b057cc049671136093886db2a3473f
+00000000 l       .group	00000000 wm4.cstdint.134.0ece0ba0ee759ce9e45a8fa510ec0d93
+00000000 l       .group	00000000 wm4.wchar_t.h.9.94198016f5b5f455e54ea1f3f054b416
+00000000 l       .group	00000000 wm4.cstdint.246.0573fcc3ea2319479988f90b448d87e4
+00000000 l       .group	00000000 wm4.MPC5744P.h.12325.7e8b3a2af2e1d37e126914b9b1a6c579
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .PPC.EMB.apuinfo	00000000 .PPC.EMB.apuinfo
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 g       .core_exceptions_table	00000000 VTABLE
+00000000 g       .core_exceptions_table	00000000 IVOR0_Vector
+00000000         *UND*	00000000 IVOR1_Handler
+00000000         *UND*	00000000 IVOR2_Handler
+00000030 g       .core_exceptions_table	00000000 IVOR3_Vector
+00000040 g       .core_exceptions_table	00000000 IVOR4_Vector
+00000050 g       .core_exceptions_table	00000000 IVOR5_Vector
+00000060 g       .core_exceptions_table	00000000 IVOR6_Vector
+00000070 g       .core_exceptions_table	00000000 IVOR7_Vector
+00000080 g       .core_exceptions_table	00000000 IVOR8_Vector
+00000090 g       .core_exceptions_table	00000000 IVOR9_Vector
+000000a0 g       .core_exceptions_table	00000000 IVOR10_Vector
+000000b0 g       .core_exceptions_table	00000000 IVOR11_Vector
+000000c0 g       .core_exceptions_table	00000000 IVOR12_Vector
+000000d0 g       .core_exceptions_table	00000000 IVOR13_Vector
+000000e0 g       .core_exceptions_table	00000000 IVOR14_Vector
+000000f0 g       .core_exceptions_table	00000000 IVOR15_Vector
+00000000 g     F .text.INTC_INTCInterruptHandler	00000038 INTC_INTCInterruptHandler
+
+
+
+Disassembly of section .core_exceptions_table:
+
+00000000 <IVOR0_Vector>:
+   0:	78 00 00 00 	e_b     0 <IVOR0_Vector>
+			0: R_PPC_VLE_REL24	IVOR0_Vector
+   4:	44 00       	se_nop
+   6:	44 00       	se_nop
+   8:	44 00       	se_nop
+   a:	44 00       	se_nop
+   c:	44 00       	se_nop
+   e:	44 00       	se_nop
+
+00000010 <IVOR1_Vector>:
+  10:	78 00 00 00 	e_b     10 <IVOR1_Vector>
+			10: R_PPC_VLE_REL24	IVOR1_Handler
+  14:	44 00       	se_nop
+  16:	44 00       	se_nop
+  18:	44 00       	se_nop
+  1a:	44 00       	se_nop
+  1c:	44 00       	se_nop
+  1e:	44 00       	se_nop
+
+00000020 <IVOR2_Vector>:
+  20:	78 00 00 00 	e_b     20 <IVOR2_Vector>
+			20: R_PPC_VLE_REL24	IVOR2_Handler
+  24:	44 00       	se_nop
+  26:	44 00       	se_nop
+  28:	44 00       	se_nop
+  2a:	44 00       	se_nop
+  2c:	44 00       	se_nop
+  2e:	44 00       	se_nop
+
+00000030 <IVOR3_Vector>:
+  30:	78 00 00 00 	e_b     30 <IVOR3_Vector>
+			30: R_PPC_VLE_REL24	IVOR3_Vector
+  34:	44 00       	se_nop
+  36:	44 00       	se_nop
+  38:	44 00       	se_nop
+  3a:	44 00       	se_nop
+  3c:	44 00       	se_nop
+  3e:	44 00       	se_nop
+
+00000040 <IVOR4_Vector>:
+  40:	78 00 00 00 	e_b     40 <IVOR4_Vector>
+			40: R_PPC_VLE_REL24	INTC_INTCInterruptHandler
+  44:	44 00       	se_nop
+  46:	44 00       	se_nop
+  48:	44 00       	se_nop
+  4a:	44 00       	se_nop
+  4c:	44 00       	se_nop
+  4e:	44 00       	se_nop
+
+00000050 <IVOR5_Vector>:
+  50:	78 00 00 00 	e_b     50 <IVOR5_Vector>
+			50: R_PPC_VLE_REL24	IVOR5_Vector
+  54:	44 00       	se_nop
+  56:	44 00       	se_nop
+  58:	44 00       	se_nop
+  5a:	44 00       	se_nop
+  5c:	44 00       	se_nop
+  5e:	44 00       	se_nop
+
+00000060 <IVOR6_Vector>:
+  60:	78 00 00 00 	e_b     60 <IVOR6_Vector>
+			60: R_PPC_VLE_REL24	IVOR6_Vector
+  64:	44 00       	se_nop
+  66:	44 00       	se_nop
+  68:	44 00       	se_nop
+  6a:	44 00       	se_nop
+  6c:	44 00       	se_nop
+  6e:	44 00       	se_nop
+
+00000070 <IVOR7_Vector>:
+  70:	78 00 00 00 	e_b     70 <IVOR7_Vector>
+			70: R_PPC_VLE_REL24	IVOR7_Vector
+  74:	44 00       	se_nop
+  76:	44 00       	se_nop
+  78:	44 00       	se_nop
+  7a:	44 00       	se_nop
+  7c:	44 00       	se_nop
+  7e:	44 00       	se_nop
+
+00000080 <IVOR8_Vector>:
+  80:	00 00       	se_illegal
+  82:	00 08       	se_rfi
+  84:	44 00       	se_nop
+  86:	44 00       	se_nop
+  88:	44 00       	se_nop
+  8a:	44 00       	se_nop
+  8c:	44 00       	se_nop
+  8e:	44 00       	se_nop
+
+00000090 <IVOR9_Vector>:
+  90:	78 00 00 00 	e_b     90 <IVOR9_Vector>
+			90: R_PPC_VLE_REL24	IVOR9_Vector
+  94:	44 00       	se_nop
+  96:	44 00       	se_nop
+  98:	44 00       	se_nop
+  9a:	44 00       	se_nop
+  9c:	44 00       	se_nop
+  9e:	44 00       	se_nop
+
+000000a0 <IVOR10_Vector>:
+  a0:	78 00 00 00 	e_b     a0 <IVOR10_Vector>
+			a0: R_PPC_VLE_REL24	IVOR10_Vector
+  a4:	44 00       	se_nop
+  a6:	44 00       	se_nop
+  a8:	44 00       	se_nop
+  aa:	44 00       	se_nop
+  ac:	44 00       	se_nop
+  ae:	44 00       	se_nop
+
+000000b0 <IVOR11_Vector>:
+  b0:	78 00 00 00 	e_b     b0 <IVOR11_Vector>
+			b0: R_PPC_VLE_REL24	IVOR11_Vector
+  b4:	44 00       	se_nop
+  b6:	44 00       	se_nop
+  b8:	44 00       	se_nop
+  ba:	44 00       	se_nop
+  bc:	44 00       	se_nop
+  be:	44 00       	se_nop
+
+000000c0 <IVOR12_Vector>:
+  c0:	78 00 00 00 	e_b     c0 <IVOR12_Vector>
+			c0: R_PPC_VLE_REL24	IVOR12_Vector
+  c4:	44 00       	se_nop
+  c6:	44 00       	se_nop
+  c8:	44 00       	se_nop
+  ca:	44 00       	se_nop
+  cc:	44 00       	se_nop
+  ce:	44 00       	se_nop
+
+000000d0 <IVOR13_Vector>:
+  d0:	78 00 00 00 	e_b     d0 <IVOR13_Vector>
+			d0: R_PPC_VLE_REL24	IVOR13_Vector
+  d4:	44 00       	se_nop
+  d6:	44 00       	se_nop
+  d8:	44 00       	se_nop
+  da:	44 00       	se_nop
+  dc:	44 00       	se_nop
+  de:	44 00       	se_nop
+
+000000e0 <IVOR14_Vector>:
+  e0:	78 00 00 00 	e_b     e0 <IVOR14_Vector>
+			e0: R_PPC_VLE_REL24	IVOR14_Vector
+  e4:	44 00       	se_nop
+  e6:	44 00       	se_nop
+  e8:	44 00       	se_nop
+  ea:	44 00       	se_nop
+  ec:	44 00       	se_nop
+  ee:	44 00       	se_nop
+
+000000f0 <IVOR15_Vector>:
+  f0:	78 00 00 00 	e_b     f0 <IVOR15_Vector>
+			f0: R_PPC_VLE_REL24	IVOR15_Vector
+  f4:	44 00       	se_nop
+  f6:	44 00       	se_nop
+  f8:	44 00       	se_nop
+  fa:	44 00       	se_nop
+  fc:	44 00       	se_nop
+  fe:	44 00       	se_nop
+
+Disassembly of section .text.INTC_INTCInterruptHandler:
+
+00000000 <INTC_INTCInterruptHandler>:
+   0:	18 21 06 e0 	e_stwu  r1,-32(r1)
+   4:	00 80       	se_mflr r0
+   6:	d9 01       	se_stw  r0,36(r1)
+   8:	d7 f1       	se_stw  r31,28(r1)
+   a:	01 1f       	se_mr   r31,r1
+   c:	70 ff e4 04 	e_lis   r7,64516
+  10:	65 a7       	se_bseti r7,26
+  12:	c0 77       	se_lwz  r7,0(r7)
+  14:	d2 7f       	se_stw  r7,8(r31)
+  16:	c2 7f       	se_lwz  r7,8(r31)
+  18:	c0 77       	se_lwz  r7,0(r7)
+  1a:	00 b7       	se_mtctr r7
+  1c:	00 07       	se_bctrl
+  1e:	70 ff e4 04 	e_lis   r7,64516
+  22:	48 06       	se_li   r6,0
+  24:	dc 67       	se_stw  r6,48(r7)
+  26:	19 7f 80 20 	e_addi  r11,r31,32
+  2a:	50 0b 00 04 	e_lwz   r0,4(r11)
+  2e:	00 90       	se_mtlr r0
+  30:	53 eb ff fc 	e_lwz   r31,-4(r11)
+  34:	03 31       	se_mfar r1,r11
+  36:	00 04       	se_blr
